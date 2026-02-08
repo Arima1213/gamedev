@@ -213,7 +213,7 @@ end
 - **Farming:** Automatically waters all crops (+100% growth)
 - **Fishing:** +30% catch rate, rain-exclusive fish spawn
 - **Mining:** Caves become muddy (-10% movement speed in caves)
-- **Combat:** Fire damage -20% effectiveness
+- **Combat:** Burn effects last 50% longer due to moisture
 - **Taming:** Amphibious creatures spawn (Frogs, Salamanders)
 
 **Rain-Exclusive Content:**
@@ -251,7 +251,7 @@ end
 - **Farming:** Crops stop growing (frozen)
 - **Fishing:** Ice fishing holes spawn, winter fish available
 - **Mining:** Ice caves become accessible
-- **Combat:** Fire damage +30% effective, Ice damage +30%
+- **Combat:** Burn effects reduced by 30%, freeze effects last 50% longer
 - **Taming:** Arctic creatures (Snow Leopard, Penguin, Ice Fox)
 
 **Snow-Exclusive Content:**

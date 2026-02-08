@@ -192,7 +192,7 @@ Visual Effects: Particle effects, glow, etc.
 - **Crafting Cost:** 10,000 IRF
 - **Special Ability:** **Burning Strike** - 30% chance to inflict Burn (50 damage over 5 sec)
 - **Durability:** 1,500 uses
-- **Stat Bonuses:** +20 Attack Damage, +25% Fire Damage
+- **Stat Bonuses:** +20 Attack Damage, +10% Critical Chance, +15% Critical Damage
 - **Description:** "Blade forged in volcanic fires, eternally wreathed in flames."
 - **Visual Effects:** Fire particles along blade, orange-red glow, burning trail
 

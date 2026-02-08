@@ -325,11 +325,12 @@ Each recipe contains:
 - Ruby x8
 
 **Output:** Flame Blade x1  
-**Stats:** Damage: 120 (80 physical + 40 fire), Attack Speed: 1.3, Durability: 3,000  
+**Stats:** Damage: 120, Attack Speed: 1.3, Durability: 3,000  
 **Effects:**
-- +50% Fire Damage
+- +30% Attack Damage
+- +20% Critical Chance
 - Burn enemies on hit (20 DPS, 5 sec)
-- Fire trail visual
+- Fire trail visual (cosmetic)
 
 **Unlock:** Level 45, Defeat Fire Golem Boss, Blacksmithing Proficiency 50  
 **Craft Time:** 180 seconds  
@@ -530,10 +531,11 @@ Each recipe contains:
 - Ruby x10
 
 **Output:** Dragon Helm x1  
-**Stats:** Defense: 100, HP: +500, Fire Resistance: +50%, Durability: 8,000  
+**Stats:** Defense: 100, HP: +500, Heat Resistance: +100% (environmental), Durability: 8,000  
 **Effects:**
 - +10% Critical Chance
-- +15% Fire Damage
+- +15% Attack Damage
+- +15% Critical Damage
 - Dragon horns visual
 
 **Unlock:** Level 70, Defeat Elder Dragon  

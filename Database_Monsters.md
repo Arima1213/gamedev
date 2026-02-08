@@ -99,9 +99,10 @@ Special Notes: Unique mechanics
 - **AI Behavior:** Melee Aggro - Chases player aggressively
 - **Abilities:** **Pack Tactics** - Deals +20% damage if another wolf is nearby
 - **Resistances:** None
-- **Weaknesses:** Fire damage (+25%)
+- **Weaknesses:** Magic damage (+15%)
 - **Loot Table:**
   - Wolf Pelt (70%) - 1-2 units
+  - Leather (50%) - 1-3 units (crafting material)
   - Wolf Fang (30%) - 1 unit
   - Raw Meat (60%) - 2-4 units
   - Copper/Silver coins (50%) - 5-15 IRF
@@ -128,6 +129,8 @@ Special Notes: Unique mechanics
 - **Weaknesses:** None
 - **Loot Table:**
   - Goblin Cloth (60%) - 1-2 units
+  - String (40%) - 2-4 units (crafting material)
+  - Leather (25%) - 1-2 units (crafting material)
   - Rusty Dagger (20%) - Vendor trash 10 IRF
   - Copper/Silver coins (70%) - 10-25 IRF
   - Health Potion (15%) - Small
@@ -215,9 +218,10 @@ Special Notes: Unique mechanics
 - **AI Behavior:** Melee Aggro - Ambush from ceilings, web attacks
 - **Abilities:** **Poison Bite** - 30% chance to poison (20 damage/sec for 5 sec), **Web Shot** - Slows player by 50% for 3 seconds (15 sec cooldown)
 - **Resistances:** Poison immunity
-- **Weaknesses:** Fire damage (+40%)
+- **Weaknesses:** Magic damage (+25%), Blunt weapons (+15%)
 - **Loot Table:**
   - Spider Silk (90%) - 3-6 units
+  - String (80%) - 4-8 units (crafting material, major source)
   - Poison Gland (60%) - 1-2 units
   - Silver/Gold coins (70%) - 50-100 IRF
   - Spider Fang (30%) - Crafting material
@@ -273,11 +277,11 @@ Special Notes: Unique mechanics
 - **Spawn Rate:** Uncommon (20%)
 - **AI Behavior:** Ranged Magic - Shoots fireballs, keeps distance
 - **Abilities:**
-  - **Fireball** - Ranged fire projectile
-  - **Flame Burst** - AoE fire explosion around self (300 damage, 5m radius, 20 sec cooldown)
-  - **Burning Aura** - Deals 10 fire damage/sec to nearby players
-- **Resistances:** Fire immunity, Ice damage -50% (actually heals)
-- **Weaknesses:** Water/Ice damage (+100%)
+  - **Fireball** - Ranged magic projectile
+  - **Flame Burst** - AoE explosion around self (300 damage, 5m radius, 20 sec cooldown)
+  - **Burning Aura** - Deals 10 damage/sec to nearby players (applies burn status)
+- **Resistances:** Physical damage -50%, Burn immunity
+- **Weaknesses:** Magic damage (+50%)
 - **Loot Table:**
   - Fire Essence (90%) - 5-10 units
   - Ruby (40%) - 1-2 units
@@ -304,10 +308,10 @@ Special Notes: Unique mechanics
 - **AI Behavior:** Elite Tank - Slow but devastating, high HP
 - **Abilities:**
   - **Earthquake Stomp** - Stuns all nearby players 2 sec, 200 AoE damage (25 sec cooldown)
-  - **Lava Armor** - Reflects 20% of melee damage as fire damage
+  - **Lava Armor** - Reflects 20% of melee damage back to attacker
   - **Molten Core** - When HP < 30%, damage increases by 50%
-- **Resistances:** Fire immunity, Physical damage -40%
-- **Weaknesses:** Ice damage (+80%), Magic damage (+30%)
+- **Resistances:** Physical damage -40%, Heat immunity (environmental)
+- **Weaknesses:** Magic damage (+50%)
 - **Loot Table:**
   - Lava Core (100%) - 1 unit (rare crafting)
   - Obsidian (95%) - 10-20 units
@@ -349,7 +353,7 @@ Special Notes: Unique mechanics
   - **Cleave Attack** - Wide swing hitting all players in front (150 damage)
   - **Enrage** - Triggers at low HP
 - **Resistances:** Physical damage -30%
-- **Weaknesses:** Fire damage (+25%)
+- **Weaknesses:** Magic damage (+20%), Critical hits (+10%)
 - **Loot Table (Guaranteed):**
   - Goblin Crown (100%) - Trophy item, 1,000 IRF value
   - Epic Geode (80%) - 1-2 units

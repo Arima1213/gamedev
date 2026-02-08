@@ -496,12 +496,12 @@ Visual Effects: Glow, particles, etc.
 - **Crafting Materials:** 20 Dragon Scale, 10 Adamantite, 5 Ruby, 1 Dragon Horn
 - **Crafting Location:** Dragon Forge (special)
 - **Crafting Cost:** 150,000 IRF
-- **Special Properties:** Immune to Fire Damage, +50% Fire Resistance, Dragon Fear Immunity
+- **Special Properties:** Immune to environmental heat damage, Dragon Fear Immunity
 - **Durability:** 12,000 damage
-- **Stat Bonuses:** +90 HP, +25 Defense, +20 Armor, +40% Fire Damage
+- **Stat Bonuses:** +90 HP, +25 Defense, +20 Armor, +25% Attack Damage, +15% Critical Damage
 - **Set Name:** Dragon Knight Set
-- **Set Bonus (2pc):** +100% Fire Damage, Immune to all fire effects, +150 HP
-- **Set Bonus (3pc):** +100% Fire Damage, Immune to fire, +150 HP, Dragon's Breath ability (breath fire, 500 damage cone, 15 sec cooldown), +50% Physical Resistance, Dragon Wings (glide ability)
+- **Set Bonus (2pc):** +50% Attack Damage, +20% Critical Chance, Immune to environmental heat, +150 HP
+- **Set Bonus (3pc):** +80% Attack Damage, +30% Critical Chance, +150 HP, Dragon's Breath ability (breath weapon, 500 damage cone, 15 sec cooldown), +30% Physical Resistance, Dragon Wings (glide ability)
 - **Description:** "Helmet crafted from authentic dragon scales. Feel the power of dragons."
 - **Visual Effects:** Red-black dragon scales, flame particles, draconic aura, horned design
 
@@ -516,11 +516,11 @@ Visual Effects: Glow, particles, etc.
 - **Crafting Materials:** 35 Dragon Scale, 15 Adamantite, 10 Ruby, 1 Dragon Heart Gem
 - **Crafting Location:** Dragon Forge
 - **Crafting Cost:** 250,000 IRF
-- **Special Properties:** Immune to Fire, Burn, and Bleed effects
+- **Special Properties:** Immune to environmental heat, Burn immunity, Bleed immunity
 - **Durability:** 20,000 damage
-- **Stat Bonuses:** +180 HP, +40 Defense, +35 Armor, +60% Fire Damage
+- **Stat Bonuses:** +180 HP, +40 Defense, +35 Armor, +35% Attack Damage, +20% Critical Damage
 - **Set Name:** Dragon Knight Set
-- **Description:** "Armor of overlapping dragon scales. Virtually impenetrable and fireproof."
+- **Description:** "Armor of overlapping dragon scales. Virtually impenetrable."
 
 **ARM_024: Dragon Scale Greaves**
 - **ArmorID:** ARM_024
@@ -533,9 +533,9 @@ Visual Effects: Glow, particles, etc.
 - **Crafting Materials:** 25 Dragon Scale, 12 Adamantite, 8 Ruby, 1 Dragon Talon
 - **Crafting Location:** Dragon Forge
 - **Crafting Cost:** 180,000 IRF
-- **Special Properties:** +15% Movement Speed, Leave burning footprints
+- **Special Properties:** +15% Movement Speed, Leave burning footprints (visual effect)
 - **Durability:** 15,000 damage
-- **Stat Bonuses:** +120 HP, +30 Defense, +28 Armor, +50% Fire Damage
+- **Stat Bonuses:** +120 HP, +30 Defense, +28 Armor, +30% Attack Damage, +10% Movement Speed
 - **Set Name:** Dragon Knight Set
 - **Description:** "Leg armor allowing dragon-like agility despite its strength."
 

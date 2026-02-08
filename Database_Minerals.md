@@ -223,8 +223,8 @@ Geode Drop: Can drop from Geode Type (X% chance)
 - **Stack Size:** 50
 - **Uses:** Jewelry, fire weapons, enchantments
 - **Description:** "Brilliant red gemstone that seems to glow with inner fire."
-- **Crafting Category:** Jewelry, fire-elemental weapons
-- **Special Properties:** +5% fire damage when used in weapon crafting
+- **Crafting Category:** Jewelry, weapons
+- **Special Properties:** +5% Attack Damage when used in weapon crafting
 - **Geode Drop:** Rare Geode (20%), Epic Geode (5%)
 
 #### MIN_010: Emerald
@@ -242,7 +242,7 @@ Geode Drop: Can drop from Geode Type (X% chance)
 - **Stack Size:** 50
 - **Uses:** Jewelry, nature weapons, healing potions
 - **Description:** "Vibrant green gem associated with life and growth."
-- **Crafting Category:** Jewelry, nature-elemental items, alchemy
+- **Crafting Category:** Jewelry, weapons, alchemy
 - **Special Properties:** +10% healing effect in potion crafting
 - **Geode Drop:** Rare Geode (20%), Epic Geode (5%)
 
@@ -513,8 +513,8 @@ Geode Drop: Can drop from Geode Type (X% chance)
 - **Crafting Category:** Dragon-tier equipment, transformation items
 - **Special Properties:**
   - Crafted equipment grants dragon abilities (flight, breath weapon)
-  - +200% fire damage
-  - Fire immunity
+  - +100% Attack Damage, +50% Critical Damage
+  - Heat immunity (environmental protection)
   - Dragon aura effects
 - **Geode Drop:** Dragon Geode (100% - boss reward container)
 - **Special Notes:** Each dragon drops only ONE gem. Legendary prestige item.
@@ -536,10 +536,10 @@ Geode Drop: Can drop from Geode Type (X% chance)
 - **Description:** "Opal containing all elemental forces in perfect balance. Shifts through colors of fire, water, earth, and air."
 - **Crafting Category:** Omni-elemental equipment, fusion magic
 - **Special Properties:**
-  - Equipment gains ALL elemental damage types
-  - Cycles through elemental buffs automatically
+  - Equipment gains +50% to ALL stats (Attack, Defense, Magic, HP)
+  - Cycles through visual elemental effects automatically
   - Spectacular rainbow particle effects
-  - Adaptive resistances
+  - +25% resistance to all damage types
 - **Geode Drop:** Mythic Geode (35%)
 
 ---

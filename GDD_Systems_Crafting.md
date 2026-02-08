@@ -531,7 +531,7 @@ At max profession level (100), craftsmen can add signature:
 - 5 Phoenix Pepper
 - 3 Rare Spices
 - 1 Premium Oil
-**Effect:** +500 HP, +50% Fire Damage, +30% Attack (1 hour)  
+**Effect:** +500 HP, +30% Attack Damage, +20% Critical Damage (1 hour)  
 **Craft Time:** 60 seconds  
 **XP:** 500
 
@@ -571,7 +571,7 @@ Players can enhance existing equipment at Enchanting Table:
   - 10 Fire Essence
   - 5 Ruby (cut)
   - 1 Enchantment Scroll
-- **Effect:** Adds fire damage (permanently)
+- **Effect:** Adds burn effect on hit: 20% chance to apply burn (50 damage over 5 sec)
 - **Visual:** Weapon glows with flames
 - **Cost:** 10,000 IRF + materials
 
