@@ -669,7 +669,7 @@ GoblinKingLoot = {
 #### Dungeon Achievements
 
 **First Clear Achievements:**
-- "First Delve" - Clear first dungeon (10 Robux reward)
+- "First Delve" - Clear first dungeon (500 IRF reward + Title)
 - "Goblin Slayer" - Defeat Goblin King
 - "Crystal Champion" - Clear Crystal Cavern
 - "Dragon Slayer" - Defeat Elder Dragon (Title reward)
@@ -681,7 +681,7 @@ GoblinKingLoot = {
 - "Secret Keeper" - Find all secrets in all dungeons
 
 **Collection Achievements:**
-- "Dungeon Master" - Clear all dungeons (100 Robux reward)
+- "Dungeon Master" - Clear all dungeons (10,000 IRF reward + Exclusive cosmetic)
 - "Nightmare Conqueror" - Clear all Nightmare modes (Exclusive cosmetic)
 
 ### 8.3 Leaderboards

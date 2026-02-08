@@ -605,7 +605,8 @@
 - Exclusive title
 - Feature on official social media
 - In-game trophy item
-- Robux prize (for top winner)
+- 50,000 IRF prize + Legendary decoration (for top winner)
+- **Note:** Winners do NOT receive Robux - only in-game rewards
 
 ---
 
