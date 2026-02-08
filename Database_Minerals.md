@@ -15,15 +15,22 @@
 
 **For Designers:**
 - Add new mineral entries following the template
-- Balance spawn rates with economic value
+- Balance drop rates with economic value
 - Coordinate with Economy team for pricing
 - Ensure crafting material tiers align with systems
 
 **For Developers:**
 - Use MineralID as unique database key
-- Implement spawn weights based on rarity
+- Implement drop rate rolls when rocks break
 - Validate tool requirements for mining
 - Handle geode loot table generation
+
+**IMPORTANT MECHANIC CLARIFICATION:**
+- ALL rocks look identical (only SIZE differs: Small/Medium/Large/Massive)
+- Rocks have NO visual indicator of contents before breaking
+- When rock breaks (durability reaches 0), system rolls for EACH mineral
+- "Drop Rate" = probability mineral drops from that rock size in that zone
+- Example: Iron Ore 45% drop rate = 45% chance to get 1-3 Iron Ore when rock breaks
 
 ---
 
@@ -35,11 +42,10 @@ Name: Mineral Display Name
 Rarity: Common/Rare/Epic/Legendary/Mythic
 Category: Ore/Gem/Crystal/Special
 Tool Required: Pickaxe (Tier X+)
-Source Rock Type: Stone/Granite/Obsidian/Special
-Spawn Weight: X% (in appropriate zones)
+Drop Rate: X% (chance to drop when rock breaks)
 Zone Location: Mining Zone A/B/C/D
-Mining Time: X seconds
-Durability Damage: X per hit
+Rock Size: Small/Medium/Large/Massive (which rocks can drop this)
+Quantity: X-Y per drop (if rolled successfully)
 Sell Value (NPC): X IRF
 Stack Size: Max 100/50/25/10
 Uses: Crafting/Trading/Alchemy/Decoration
@@ -54,11 +60,10 @@ Geode Drop: Can drop from Geode Type (X% chance)
 ## Common Ores & Materials
 
 ### STONE TIER (Grey - Basic Materials)
-
-#### MIN_001: Stone
-- **MineralID:** MIN_001
-- **Name:** Stone
-- **Rarity:** Common
+Drop Rate:** 60% (from any rock in any zone)
+- **Zone Location:** All Mining Zones
+- **Rock Size:** Small, Medium, Large, Massive (all sizes)
+- **Quantity:** 2-5 per drop
 - **Category:** Basic Material
 - **Tool Required:** Any Pickaxe
 - **Source Rock Type:** Stone nodes (everywhere)
@@ -73,11 +78,10 @@ Geode Drop: Can drop from Geode Type (X% chance)
 - **Crafting Category:** Construction blocks, basic tools
 - **Special Properties:** Used in nearly all construction recipes
 
-#### MIN_002: Coal
-- **MineralID:** MIN_002
-- **Name:** Coal
-- **Rarity:** Common
-- **Category:** Fuel
+####Drop Rate:** 25% (from rocks in Zone A, B)
+- **Zone Location:** Mining Zone A, B
+- **Rock Size:** Small, Medium, Large (all sizes in these zones)
+- **Quantity:** 1-3 per drop
 - **Tool Required:** Any Pickaxe
 - **Source Rock Type:** Stone nodes
 - **Spawn Weight:** 25%
@@ -92,11 +96,10 @@ Geode Drop: Can drop from Geode Type (X% chance)
 - **Special Properties:** Burns for 60 seconds in furnaces
 
 #### MIN_003: Copper Ore
-- **MineralID:** MIN_003
-- **Name:** Copper Ore
-- **Rarity:** Common
-- **Category:** Ore
-- **Tool Required:** Any Pickaxe
+- **Drop Rate:** 20% (from rocks in Zone A, B)
+- **Zone Location:** Mining Zone A, B
+- **Rock Size:** Small, Medium, Large
+- **Quantity:** 1-2 per dropickaxe
 - **Source Rock Type:** Stone nodes
 - **Spawn Weight:** 20%
 - **Zone Location:** Mining Zone A, B
@@ -135,11 +138,10 @@ Geode Drop: Can drop from Geode Type (X% chance)
 
 #### MIN_005: Iron Ore
 - **MineralID:** MIN_005
-- **Name:** Iron Ore
-- **Rarity:** Rare
-- **Category:** Ore
-- **Tool Required:** Copper Pickaxe+
-- **Source Rock Type:** Granite nodes
+- **Drop Rate:** 15% (from rocks in Zone B, C)
+- **Zone Location:** Mining Zone B (Cave), C (Deep Cave)
+- **Rock Size:** Medium, Large, Massive (higher chance in larger rocks)
+- **Quantity:** 1-3 per dropanite nodes
 - **Spawn Weight:** 15%
 - **Zone Location:** Mining Zone B (Cave), C (Deep Cave)
 - **Mining Time:** 3 seconds
@@ -660,11 +662,14 @@ Geode Drop: Can drop from Geode Type (X% chance)
 - Common: 1-10 IRF each
 - Rare: 10-100 IRF each
 - Epic: 100-1,000 IRF each
-- Legendary: 1,000-10,000 IRF each
-- Mythic: 10,000-100,000 IRF each
-
-### Spawn Weight Guidelines:
-- Total spawn weights per zone should equal 100%
+- LeDrop Rate Guidelines:
+- Drop rates are INDEPENDENT (multiple minerals can drop from one rock)
+- Example: One rock can drop Stone (60%), Coal (25%), AND Copper (20%) all together
+- Total drop rates can exceed 100% because rolls are independent
+- Rarer materials have lower drop rates but higher value
+- Deep zones have better drop rate distributions (more rare materials)
+- Larger rocks have higher chances for rare materials
+- Event materials have separate drop equal 100%
 - Rarer materials compensate with higher value
 - Deep zones have better material distribution
 - Event materials have separate spawn tables

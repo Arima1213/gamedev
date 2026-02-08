@@ -71,6 +71,46 @@ Combat phase:
 - Use special "Taming" weapons (non-lethal damage)
 - Avoid overkill or creature dies permanently
 
+**IMPORTANT: Wild Familiar Loot Drops**
+
+If wild familiar is killed (HP = 0) instead of tamed:
+- **Drops materials** (specific to familiar species)
+- **Drops EXP** (same as monsters of equivalent level)
+- **Cannot be tamed anymore** (permanent death)
+- **Loot quality** scales with familiar rarity:
+  - Common: 1-2 basic materials + 50-100 EXP
+  - Rare: 2-4 materials + 200-400 EXP
+  - Epic: 4-6 rare materials + 500-1000 EXP
+  - Legendary: 6-10 epic materials + 2000-5000 EXP
+  - Mythic: 10-15 legendary materials + 5000-10000 EXP
+
+```lua
+function WildFamiliarService:OnFamiliarKilled(familiar, killer)
+    -- Drop materials specific to familiar type
+    local lootTable = FamiliarLootTables[familiar.FamiliarId]
+    
+    for _, material in ipairs(lootTable.Materials) do
+        if math.random() < material.DropRate then
+            local quantity = math.random(material.MinAmount, material.MaxAmount)
+            LootService:DropItem(familiar.Position, material.ItemId, quantity)
+        end
+    end
+    
+    -- Award EXP to killer
+    local expReward = lootTable.BaseEXP * familiar.Level
+    PlayerService:AwardEXP(killer, expReward)
+    
+    -- Remove from world
+    familiar:Destroy()
+end
+```
+
+**Trade-off Decision:**
+- Kill familiar → Get materials + EXP (but lose companion)
+- Tame familiar → Get permanent companion (but no immediate materials)
+
+This creates strategic choice for players between short-term resource gain vs long-term companion benefits.
+
 #### Step 3: Taming Attempt
 ```lua
 function TamingService:AttemptTame(player, creature)
@@ -618,16 +658,49 @@ end
 
 ### 7.3 Familiar Death & Revival
 
-If familiar HP reaches 0 in combat:
-- Familiar "faints" (doesn't die permanently)
-- Returns to familiar storage
-- Cannot be summoned for 10 minutes
-- OR pay 500 IRF to instantly revive
-- No XP penalty, just cooldown
+**IMPORTANT: Tamed Familiar Protection**
 
-Mythic familiars:
-- 30-minute cooldown
-- 2,000 IRF instant revival cost
+**Tamed familiars (owned by player):**
+- Can ONLY be killed by **monsters/enemies** (not by other players)
+- **NO PvP on tamed familiars** (other players cannot damage your familiar)
+- When HP reaches 0 in combat:
+  - Familiar "faints" (doesn't die permanently)
+  - **Does NOT drop any materials or loot**
+  - Returns to familiar storage automatically
+  - Cannot be summoned for 10 minutes (normal) / 30 minutes (Mythic)
+  - OR pay 500 IRF to instantly revive (2,000 IRF for Mythic)
+  - No XP penalty, just cooldown
+
+**Auto-Revival System:**
+```lua
+function FamiliarCombatService:OnFamiliarFaint(familiar)
+    -- Tamed familiars never drop loot
+    -- They just go on cooldown
+    
+    familiar.IsFainted = true
+    familiar.ReviveTime = os.time() + (familiar.Rarity == "Mythic" and 1800 or 600)
+    
+    -- Return to storage
+    FamiliarStorageService:ReturnFamiliar(familiar.OwnerId, familiar)
+    
+    -- Notify player
+    NotificationService:Send(familiar.OwnerId, {
+        Title = familiar.Nickname .. " has fainted!",
+        Message = "Will auto-revive in " .. (familiar.Rarity == "Mythic" and "30 minutes" or "10 minutes"),
+        Type = "Warning"
+    })
+end
+```
+
+**Cooldown Timers:**
+- Common/Rare/Epic: 10 minutes
+- Legendary: 20 minutes  
+- Mythic: 30 minutes
+
+**Instant Revival Cost:**
+- Common/Rare/Epic: 500 IRF
+- Legendary: 1,000 IRF
+- Mythic: 2,000 IRF
 
 ---
 

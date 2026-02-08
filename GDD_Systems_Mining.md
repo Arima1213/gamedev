@@ -213,73 +213,78 @@ By restricting mining to dungeons, we create:
 
 ### 4.1 Rock Size Categories
 
+**IMPORTANT:** All rocks look identical (same stone texture/model), only SIZE differs. Players cannot tell what's inside before mining.
+
 #### Small Rock
 - **Durability:** 50 HP
 - **Visual Size:** ~3 studs tall
+- **Visual:** Grey stone rock (generic appearance)
 - **Spawn Rate:** 60% of all rocks
 - **Mining Time Examples:**
   - Common Tool: 5.0 seconds
   - Rare Tool: 4.0 seconds
   - Mythic Tool: 1.8 seconds
 
-**Loot Table:**
-- 40% chance: 1 mineral
-- 35% chance: 2 minerals
-- 20% chance: 1 geode
-- 5% chance: Nothing
+**Drop Mechanics:**
+When rock breaks (durability = 0), system rolls EACH mineral's drop rate independently:
+- Each mineral rolls separately (can get multiple types)
+- Zone determines which minerals can drop
+- Rock size affects rare material drop rates
+- Example: Small rock in Zone A rolls for: Stone (60%), Coal (25%), Copper (20%), Tin (18%)
+- Player might get: 3 Stone, 1 Coal, nothing else (RNG based)
 
 #### Medium Rock
 - **Durability:** 150 HP
 - **Visual Size:** ~5 studs tall
+- **Visual:** Same grey stone (larger version)
 - **Spawn Rate:** 30% of all rocks
 - **Mining Time Examples:**
   - Common Tool: 15.0 seconds
   - Rare Tool: 12.0 seconds
   - Mythic Tool: 5.5 seconds
 
-**Loot Table:**
-- 10% chance: 1 mineral
-- 30% chance: 2 minerals
-- 35% chance: 3 minerals
-- 15% chance: 1 geode
-- 8% chance: 2 geodes
-- 2% chance: Nothing
+**Drop Mechanics:**
+- Rolls same minerals as Small rocks
+- +5% bonus to rare material drop rates
+- Higher geode drop chance (15% vs 8% for small)
+- Example Medium rock in Zone B might drop: 4 Stone, 2 Coal, 1 Iron Ore, 1 Common Geode
 
 #### Large Rock
 - **Durability:** 300 HP
 - **Visual Size:** ~8 studs tall
+- **Spawn Rate:** 9% of all rocks
+- **Visual:** Same grey stone (even larger), slight glow effect
 - **Spawn Rate:** 9% of all rocks
 - **Mining Time Examples:**
   - Common Tool: 30.0 seconds
   - Rare Tool: 24.0 seconds
   - Mythic Tool: 10.9 seconds
 
-**Loot Table:**
-- 5% chance: 2 minerals
-- 25% chance: 3 minerals
-- 35% chance: 4 minerals
-- 20% chance: 5 minerals
-- 10% chance: 2 geodes
-- 4% chance: 1 Sparkling Geode
-- 1% chance: 1 mineral (unlucky)
-
+**Drop Mechanics:**
+- Rolls same minerals as Medium rocks
+- +10% bonus to rare material drop rates (cumulative: +15% total)
+- Can drop Epic tier minerals (Titanium, Amethyst)
+- Higher geode drop chance (20% for rare geodes, 4% for sparkling)
+- Guaranteed minimum 2 mineral types will drop
 #### Massive Rock (Rare Spawn)
 - **Durability:** 500 HP
 - **Visual Size:** ~12 studs tall, glows slightly
+- **Spawn Rate:** 1% of all rocks
+- **Mining Time Examples:**
+- **Visual:** Same grey stone (massive), glowing aura, particles
 - **Spawn Rate:** 1% of all rocks
 - **Mining Time Examples:**
   - Common Tool: 50.0 seconds
   - Rare Tool: 40.0 seconds
   - Mythic Tool: 18.2 seconds
 
-**Loot Table:**
-- 30% chance: 5 minerals
-- 30% chance: 6 minerals
-- 20% chance: 7 minerals + 1 geode
-- 15% chance: 8 minerals + 2 geodes
-- 5% chance: 10 minerals + 1 Sparkling Geode
-
-### 4.2 Rock Spawn System
+**Drop Mechanics:**
+- Rolls ALL possible minerals in zone
+- +20% bonus to rare material drop rates (cumulative: +35% total)
+- Can drop Legendary tier minerals (Mithril, Adamantite)
+- Very high geode drop chance (40% for sparkling, 5% for large sparkling)
+- Guaranteed minimum 4 different mineral types
+- Best source for endgame materials
 
 **Spawn Rules:**
 - Maximum 20 rocks per dungeon instance simultaneously
@@ -295,32 +300,63 @@ By restricting mining to dungeons, we create:
 - **Safe Zones**: Only small rocks spawn, but no monsters
 
 **Visual Indicators:**
-- Rocks emit faint particles matching mineral type
-- Large+ rocks have ambient glow
-- Massive rocks have unique model + pulsing effect
-- Minimap shows rock locations as grey dots
+- ALL rocks look the same (grey stone texture)
+- Only SIZE differs (Small = 3 studs, Medium = 5 studs, Large = 8 studs, Massive = 12 studs)
+- Large+ rocks have slight ambient glow (indicates size, not contents)
+- Massive rocks have pulsing glow effect + rare particles
+- Minimap shows rock locations as grey dots (all same icon)
+- **No way to tell contents before mining** (intentional mystery/RNG)
 
 ---
+Drop System
 
-## 5. Resource Yields
+**HOW IT WORKS:**
+1. Player mines rock until durability = 0
+2. Rock breaks with satisfying animation
+3. System rolls EACH mineral's drop rate independently
+4. Multiple minerals can drop from single rock
+5. Zone determines which minerals are in drop pool
+6. Rock size adds bonus to rare material chances
 
-### 5.1 Mineral Types
+**Example Loot Roll (Medium rock, Zone B):**
+```
+System checks:
+- Stone (60% + 5% size bonus = 65%) → ROLL: 42 → SUCCESS → Drop 3 Stone
+- Coal (25% + 5% = 30%) → ROLL: 87 → FAIL
+- Copper (20% + 5% = 25%) → ROLL: 15 → SUCCESS → Drop 1 Copper
+- Iron (15% + 5% = 20%) → ROLL: 91 → FAIL
+- Common Geode (15%) → ROLL: 8 → SUCCESS → Drop 1 Geode
+
+Final loot: 3 Stone, 1 Copper Ore, 1 Common Geode
+```
 
 #### Common Minerals (Grey Tier)
-**Iron Ore**
-- Drop Rate: 45% from any rock
-- Base Amount: 1-3 per drop
-- Uses: Base crafting material for all tools/weapons
+**Stone**
+- Drop Rate: 60% from any rock in any zone
+- Base Amount: 2-5 per drop
+- Uses: Building materials, decorations, basic crafting
 - Stack Size: 999
+- **Most common material, guaranteed income**
+
+**Coal**
+- Drop Rate: 25% from any rock in Zone A, B
+- Base Amount: 1-3 per drop
+- Uses: Fuel, smelting (needed for ingot processing)
+- Stack Size: 999
+- **Important bottleneck material**
 
 **Copper Ore**
-- Drop Rate: 30% from any rock
+- Drop Rate: 20% from any rock in Zone A, B
 - Base Amount: 1-2 per drop
-- Uses: Rare+ equipment crafting
+- Uses: Starter equipment crafting
 - Stack Size: 999
 
-**Stone Chunks**
-- Drop Rate: 40% from any rock
+**Iron Ore**
+- Drop Rate: 15% from rocks in Zone B, C (higher in Medium+ rocks)
+- Base Amount: 1-3 per drop
+- Uses: Mid-tier equipment (most important ore)
+- Stack Size: 999
+- **Primary progression material**from any rock
 - Base Amount: 2-5 per drop
 - Uses: Building materials, decorations
 - Stack Size: 999
@@ -664,31 +700,73 @@ Rock = {
 }
 ```
 
-**Mining Action Handler:**
-```lua
--- Server-side mining validation
-function ProcessMiningTick(player, rock, tool)
-    -- Validate distance
-    if (player.Position - rock.Position).Magnitude > 5 then
-        return CancelMining(player)
+**Mining Action Handler:**, miningZone)
+    local results = {}
+    
+    -- Get mineral pool for this zone
+    local mineralPool = GetMineralPoolForZone(miningZone)
+    
+    -- Size bonus (Small: 0%, Medium: +5%, Large: +10%, Massive: +20%)
+    local sizeBonus = GetSizeBonus(rock.Size)
+    
+    -- Roll EACH mineral independently
+    for _, mineral in ipairs(mineralPool) do
+        -- Calculate modified drop rate
+        local baseRate = mineral.DropRate / 100
+        local modifiedRate = baseRate * (1 + sizeBonus + (playerLuck / 100))
+        modifiedRate = math.min(modifiedRate, 0.95) -- Cap at 95%
+        
+        -- Roll for this mineral
+        if math.random() < modifiedRate then
+            local quantity = math.random(mineral.MinAmount, mineral.MaxAmount)
+            table.insert(results, {
+                ItemID = mineral.ID,
+                Name = mineral.Name,
+                Quantity = quantity,
+                Rarity = mineral.Rarity
+            })
+        end
     end
     
-    -- Validate tool
-    local toolStats = GetToolStats(tool)
-    if not toolStats then return end
+    -- Guarantee at least 1 common material (Stone) if completely unlucky
+    if #results == 0 then
+        table.insert(results, {
+            ItemID = "MIN_001",
+            Name = "Stone",
+            Quantity = math.random(1, 3),
+            Rarity = "Common"
+        })
+    end
     
-    -- Calculate damage
-    local damage = toolStats.BasePower * toolStats.SpeedMultiplier
-    
-    -- Apply luck modifiers to damage
-    local luckBonus = CalculateLuckBonus(player)
-    
-    -- Damage rock
-    rock.Durability.Current -= damage
-    
-    -- Check if broken
-    if rock.Durability.Current <= 0 then
-        HandleRockBreak(player, rock, luckBonus)
+    return results
+end
+
+function GetSizeBonus(size)
+    if size == "Small" then return 0
+    elseif size == "Medium" then return 0.05
+    elseif size == "Large" then return 0.10
+    elseif size == "Massive" then return 0.20
+    end
+end
+
+function GetMineralPoolForZone(zone)
+    -- Each zone has different mineral pool
+    if zone == "A" then
+        return {
+            {ID = "MIN_001", DropRate = 60, MinAmount = 2, MaxAmount = 5},
+            {ID = "MIN_002", DropRate = 25, MinAmount = 1, MaxAmount = 3},
+            {ID = "MIN_003", DropRate = 20, MinAmount = 1, MaxAmount = 2},
+            -- etc...
+        }
+    elseif zone == "B" then
+        return {
+            {ID = "MIN_001", DropRate = 60, MinAmount = 2, MaxAmount = 5},
+            {ID = "MIN_002", DropRate = 25, MinAmount = 1, MaxAmount = 3},
+            {ID = "MIN_005", DropRate = 15, MinAmount = 1, MaxAmount = 3}, -- Iron Ore
+            -- etc...
+        }
+    end
+    -- Continue for zones C, D...Break(player, rock, luckBonus)
     end
 end
 ```

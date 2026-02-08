@@ -45,6 +45,19 @@ Comprehensive catalog of all tameable creatures (familiars) in IRIFA, including 
 - **Mount:** Faster travel
 - **Hybrid:** Multiple functions
 
+### Wild Familiar Loot System
+**IMPORTANT:** Wild familiars (not yet tamed) will drop materials and EXP if killed:
+- **Materials:** Specific to familiar species (fur, feathers, essence, etc.)
+- **EXP:** Scales with familiar level and rarity
+- **Permanent Death:** Once killed, that familiar instance cannot be tamed
+- **Trade-off:** Kill for immediate materials OR tame for permanent companion
+
+**Tamed Familiar Protection:**
+- Tamed familiars (owned) can ONLY be killed by monsters (not other players)
+- NO loot drops when tamed familiar faints
+- Auto-revives after cooldown (10-30 minutes)
+- See [GDD_Systems_Taming.md](GDD_Systems_Taming.md) for full mechanics
+
 ---
 
 ## Common Familiars
@@ -78,6 +91,13 @@ Comprehensive catalog of all tameable creatures (familiars) in IRIFA, including 
 **Max Level:** 30  
 **Food Preference:** Vegetables (Carrot, Lettuce, Cabbage)  
 **Size Growth:** Small → Medium at level 20
+
+**Wild Familiar Loot Drops (if killed instead of tamed):**
+- Rabbit Fur: 80% drop rate (1-2 units)
+- Rabbit Meat: 60% drop rate (1-3 units)
+- Common Hide: 40% drop rate (1 unit)
+- EXP Reward: 50-100 EXP (scales with level)
+- **Note:** Killing prevents taming permanently
 
 **Lore:** *"Gentle creatures that love gardens. Their presence somehow makes crops grow healthier."*
 
@@ -113,6 +133,12 @@ Comprehensive catalog of all tameable creatures (familiars) in IRIFA, including 
 **Food Preference:** Seeds, Fruits  
 **Size Growth:** Small (no size change)
 
+**Wild Familiar Loot Drops (if killed instead of tamed):**
+- Blue Feather: 90% drop rate (2-4 units)
+- Bird Beak: 30% drop rate (1 unit)
+- EXP Reward: 50-100 EXP (scales with level)
+- **Note:** Killing prevents taming permanently
+
 **Lore:** *"Helpful birds that collect shiny objects. Adventurers love their assistance."*
 
 ---
@@ -145,6 +171,12 @@ Comprehensive catalog of all tameable creatures (familiars) in IRIFA, including 
 
 **Max Level:** 30  
 **Food Preference:** Monster meat, raw materials  
+
+**Wild Familiar Loot Drops (if killed instead of tamed):**
+- Slime Gel: 100% drop rate (3-5 units)
+- Green Essence: 50% drop rate (1-2 units)
+- EXP Reward: 50-100 EXP (scales with level)
+- **Note:** Killing prevents taming permanently
 
 **Lore:** *"The most basic familiar, but reliable in early dungeons."*
 
@@ -313,6 +345,13 @@ Comprehensive catalog of all tameable creatures (familiars) in IRIFA, including 
 
 **Max Level:** 50
 
+**Wild Familiar Loot Drops (if killed instead of tamed):**
+- Fox Pelt: 85% drop rate (2-4 units) - Rare material
+- Fox Tail: 60% drop rate (1 unit) - Rare material
+- Sharp Fang: 50% drop rate (1-2 units) - Common material
+- EXP Reward: 200-400 EXP (scales with level)
+- **Note:** Killing prevents taming permanently
+
 ---
 
 ### 10. Sea Turtle
@@ -346,6 +385,13 @@ Comprehensive catalog of all tameable creatures (familiars) in IRIFA, including 
 
 **Max Level:** 50
 
+**Wild Familiar Loot Drops (if killed instead of tamed):**
+- Turtle Shell: 90% drop rate (1 unit) - Rare material (armor crafting)
+- Sea Scales: 70% drop rate (3-5 units) - Rare material
+- Turtle Flipper: 40% drop rate (1-2 units) - Common material
+- EXP Reward: 200-400 EXP (scales with level)
+- **Note:** Killing prevents taming permanently
+
 ---
 
 ### 11. Owl
@@ -368,6 +414,13 @@ Comprehensive catalog of all tameable creatures (familiars) in IRIFA, including 
 - **Night Hunter:** +20% night gathering speed
 
 **Max Level:** 50
+
+**Wild Familiar Loot Drops (if killed instead of tamed):**
+- Owl Feather: 85% drop rate (3-5 units) - Rare material
+- Wise Talon: 60% drop rate (1-2 units) - Rare material
+- Night Eye: 30% drop rate (1 unit) - Rare material (alchemy ingredient)
+- EXP Reward: 200-400 EXP (scales with level)
+- **Note:** Killing prevents taming permanently
 
 ---
 
@@ -393,6 +446,13 @@ Comprehensive catalog of all tameable creatures (familiars) in IRIFA, including 
 
 **Max Level:** 50  
 **Special:** Slides on belly (cute animation)
+
+**Wild Familiar Loot Drops (if killed instead of tamed):**
+- Penguin Down: 80% drop rate (3-4 units) - Rare material (cold resistance gear)
+- Ice Feather: 65% drop rate (2-3 units) - Rare material
+- Flipper: 40% drop rate (1 unit) - Common material
+- EXP Reward: 200-400 EXP (scales with level)
+- **Note:** Killing prevents taming permanently
 
 ---
 
@@ -531,6 +591,14 @@ Comprehensive catalog of all tameable creatures (familiars) in IRIFA, including 
 **Max Level:** 60  
 **Food Preference:** Spicy foods, fire-based items
 
+**Wild Familiar Loot Drops (if killed instead of tamed):**
+- Fire Wolf Pelt: 90% drop rate (4-6 units) - Epic material
+- Flame Core: 70% drop rate (2-4 units) - Epic material
+- Wolf Fang: 60% drop rate (2-3 units) - Rare material
+- Volcanic Ash: 40% drop rate (3-5 units) - Common material
+- EXP Reward: 500-1000 EXP (scales with level)
+- **Note:** Killing prevents taming permanently
+
 ---
 
 ### 18. Crystal Golem
@@ -656,6 +724,14 @@ Comprehensive catalog of all tameable creatures (familiars) in IRIFA, including 
 
 **Max Level:** 70
 
+**Wild Familiar Loot Drops (if killed instead of tamed):**
+- Shadow Panther Hide: 95% drop rate (5-7 units) - Epic material
+- Dark Essence: 80% drop rate (3-5 units) - Epic material
+- Panther Claw: 70% drop rate (2-4 units) - Rare material
+- Void Crystal: 30% drop rate (1-2 units) - Epic material
+- EXP Reward: 500-1000 EXP (scales with level)
+- **Note:** Killing prevents taming permanently
+
 ---
 
 ### 22. Earth Bear
@@ -683,6 +759,14 @@ Comprehensive catalog of all tameable creatures (familiars) in IRIFA, including 
 - +30% Physical Resistance
 
 **Max Level:** 60
+
+**Wild Familiar Loot Drops (if killed instead of tamed):**
+- Earth Bear Pelt: 90% drop rate (5-8 units) - Epic material
+- Stone Heart: 75% drop rate (3-4 units) - Epic material
+- Bear Claw: 65% drop rate (2-3 units) - Rare material
+- Mountain Crystal: 50% drop rate (2-4 units) - Rare material
+- EXP Reward: 500-1000 EXP (scales with level)
+- **Note:** Killing prevents taming permanently
 
 ---
 
@@ -732,6 +816,16 @@ Comprehensive catalog of all tameable creatures (familiars) in IRIFA, including 
 **Special:** Glows at night, highly prestigious  
 **Limit:** One per player
 
+**Wild Familiar Loot Drops (if killed instead of tamed):**
+- Unicorn Horn: 100% drop rate (1 unit) - Legendary material
+- Rainbow Mane: 95% drop rate (6-10 units) - Legendary material
+- Stardust: 85% drop rate (5-8 units) - Epic material
+- Crystal Hooves: 70% drop rate (3-5 units) - Epic material
+- Pure Essence: 60% drop rate (4-6 units) - Epic material
+- EXP Reward: 2000-5000 EXP (scales with level)
+- **WARNING:** Killing a Unicorn may anger mystical forces
+- **Note:** Killing prevents taming permanently
+
 **Lore:** *"Legendary beasts of purity. Only those with kind hearts can tame them."*
 
 ---
@@ -779,6 +873,16 @@ Comprehensive catalog of all tameable creatures (familiars) in IRIFA, including 
 **Max Level:** 80  
 **Personality:** Noble, protective
 
+**Wild Familiar Loot Drops (if killed instead of tamed):**
+- Phoenix Feather: 100% drop rate (1-2 units) - Legendary material
+- Flame Essence: 95% drop rate (8-12 units) - Legendary material
+- Phoenix Ash: 90% drop rate (10-15 units) - Epic material
+- Fire Core: 75% drop rate (4-6 units) - Epic material
+- Rebirth Crystal: 40% drop rate (1 unit) - Legendary material (extremely rare)
+- EXP Reward: 2000-5000 EXP (scales with level)
+- **Note:** Phoenix will attempt to revive once before death (50% chance to escape)
+- **Note:** Killing prevents taming permanently
+
 **Lore:** *"Immortal birds of flame. Their loyalty is eternal."*
 
 ---
@@ -825,6 +929,16 @@ Comprehensive catalog of all tameable creatures (familiars) in IRIFA, including 
 
 **Max Level:** 100  
 **Special:** Phases through walls, teleports to player if too far
+
+**Wild Familiar Loot Drops (if killed instead of tamed):**
+- Void Crystal: 100% drop rate (1 unit) - Mythic material
+- Void Essence: 95% drop rate (10-15 units) - Legendary material
+- Dark Matter: 90% drop rate (8-12 units) - Legendary material
+- Phase Shard: 80% drop rate (5-10 units) - Epic material
+- Dimension Gem: 60% drop rate (3-6 units) - Legendary material
+- EXP Reward: 5000-10000 EXP (scales with level)
+- **Note:** Only spawns during Void Rift world events (rare)
+- **Note:** Killing prevents taming permanently
 
 **Lore:** *"Beings from the void dimension. Few understand their true nature."*
 
@@ -884,6 +998,18 @@ Comprehensive catalog of all tameable creatures (familiars) in IRIFA, including 
 - Tradeable as egg only
 - Account-bound once hatched
 - Appearance customization (element type)
+
+**Wild Familiar Loot Drops (if killed instead of tamed):**
+- Dragon Scale: 100% drop rate (10-15 units) - Mythic material
+- Dragon Heart: 100% drop rate (1 unit) - Mythic material (extremely valuable)
+- Dragon Blood: 95% drop rate (8-12 units) - Legendary material
+- Dragon Bone: 90% drop rate (6-10 units) - Legendary material
+- Prismatic Gem: 80% drop rate (4-8 units) - Epic material
+- Ancient Essence: 70% drop rate (5-10 units) - Legendary material
+- EXP Reward: 5000-10000 EXP (scales with level)
+- **WARNING:** Killing a Baby Dragon will permanently lock Dragon Whisperer quest line
+- **Note:** Only 1 Baby Dragon spawns per server per week
+- **Note:** Killing prevents taming permanently and wastes the Dragon Heart Gem required for quest
 
 **Lore:** *"Raise your own dragon from birth. The ultimate companion."*
 
