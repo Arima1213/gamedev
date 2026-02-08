@@ -51,170 +51,1074 @@ Dungeons provide structured PvE content for solo players and groups, offering:
 
 ---
 
-## 2. Dungeon Types
+## 2. Dungeon Types & Complete Database
 
-### 2.1 Solo Dungeons (1 player)
-
-#### The Abandoned Mine (Level 5-10)
-**Theme:** Tutorial dungeon, mining theme  
-**Length:** 10-15 minutes  
-**Layout:** Linear path with 2 side rooms  
-**Enemies:** Slimes, Bats, Cave Spiders (Common)  
-**Miniboss:** Giant Slime King (Mid-dungeon)  
-**Boss:** Corrupted Mining Golem  
-**Unique Mechanic:** Collapsing tunnels (time pressure in final room)  
-**Rewards:**
-- Common/Rare equipment (Level 5-10)
-- Mining materials (Copper, Iron, Coal)
-- 500-1,000 IRF
-- Achievement: "First Delve"
-
-#### The Haunted Crypt (Level 15-20)
-**Theme:** Undead/Horror theme  
-**Length:** 15-20 minutes  
-**Layout:** Multiple branching paths, secret rooms  
-**Enemies:** Skeletons, Zombies, Ghosts  
-**Miniboss:** Crypt Guardian (blocks main path)  
-**Boss:** Lich Lord  
-**Unique Mechanic:** Light/Dark - torches control ghost visibility  
-**Rewards:**
-- Rare/Epic equipment (Level 15-20)
-- Dark essence crafting materials
-- 2,000-4,000 IRF
-- Achievement: "Crypt Raider"
+**IMPORTANT SYSTEM RULES:**
+- **Party Flexibility:** All dungeons (except Raid) can be entered solo (1 player) or party (up to 5 players)
+- **No Separate Queues:** There are NO "solo-only" or "party-only" versions - same dungeon scales for 1-5 players
+- **Personal Loot:** Each player receives their own chest after boss defeat (NOT shared loot)
+- **Exit System:** Portal spawns after boss defeat with 3-minute countdown, then force-teleports all players to Main Town
+- **Emergency Exit:** Players can use Teleportation Scroll (bought from Gruff the Blacksmith, 100 IRF) to leave anytime
 
 ---
 
-### 2.2 Party Dungeons (2-5 players)
+### Total Dungeons: 4 Permanent Dungeons
 
-#### Goblin Fortress (Level 10-15)
-**Theme:** Goblin raid, siege warfare  
-**Recommended Party:** 3-5 players  
-**Length:** 20-30 minutes  
-**Layout:** Fortress with walls, towers, throne room  
-**Stages:**
-1. Breach outer walls (destroy gates)
-2. Clear courtyard (wave defense)
-3. Ascend throne room tower
-4. Boss fight: Goblin King
-
-**Enemies:** 
-- Goblin Scouts, Warriors, Archers
-- Goblin Shamans (healers)
-- War Wolves (pets)
-
-**Mechanics:**
-- **Gate Destruction:** Must break down fortified gates
-- **Wave Defense:** Survive goblin counterattacks
-- **Adds Management:** Boss summons reinforcements
-
-**Rewards:**
-- Rare/Epic equipment (Level 10-15)
-- Goblin crafting materials
-- 3,000-6,000 IRF (split among party)
-- Achievement: "Goblin Slayer"
-
-#### Crystal Cavern (Level 25-30)
-**Theme:** Crystal/magic theme, puzzle elements  
-**Recommended Party:** 4-5 players  
-**Length:** 30-45 minutes  
-**Layout:** Open cavern with platforms, crystal formations  
-**Stages:**
-1. Navigate crystal maze (puzzle)
-2. Activate power crystals (coordination mechanic)
-3. Clear elemental guardians
-4. Boss fight: Ancient Crystal Guardian
-
-**Enemies:**
-- Crystal Elementals
-- Animated Crystals
-- Crystal Spiders
-
-**Mechanics:**
-- **Crystal Puzzle:** Match colors to open paths
-- **Shield Mechanic:** Destroy crystals to damage boss
-- **Platform Navigation:** Avoid falling into void
-
-**Rewards:**
-- Epic equipment (Level 25-30)
-- Crystals (Amethyst, Diamond, rare gems)
-- 10,000-20,000 IRF
-- Legendary Geode (30% chance)
-- Achievement: "Crystal Champion"
+| Dungeon Name | Type | Min Level | Recommended Level | Party Size | Length |
+|--------------|------|-----------|-------------------|------------|--------|
+| **Goblin Fortress** | Normal Dungeon | 10 | 12-18 | 1-5 players | 20-30 min |
+| **Crystal Cavern** | Elite Dungeon | 25 | 28-35 | 1-5 players | 35-45 min |
+| **Volcanic Core** | Elite Dungeon | 35 | 38-45 | 1-5 players | 40-50 min |
+| **Dragon's Lair** | Raid Dungeon | 45 | 48-50 | 3-8 players | 60-90 min |
 
 ---
 
-### 2.3 Raid Dungeons (5-10 players)
+## DUNGEON 1: GOBLIN FORTRESS
 
-#### Dragon's Lair (Level 40-45)
-**Theme:** Dragon's mountain lair  
-**Recommended Party:** 8-10 players  
-**Length:** 60-90 minutes  
-**Layout:** Massive multi-room dungeon
-- Dragon hoard room
-- Lava chambers
-- Dragon's nest
-- Final arena
+### 2.1.1 Basic Information
 
-**Stages:**
-1. Clear dragon whelps and drakes
-2. Survive lava room hazards
-3. Defend against dragon air raids
-4. Boss fight: Elder Dragon (multi-phase)
+**Dungeon Type:** Normal Dungeon  
+**Theme:** Medieval fortress siege, goblin warfare  
+**Minimum Level:** 10  
+**Recommended Level:** 12-18  
+**Party Size:** 1-5 players (scalable difficulty)  
+**Estimated Clear Time:** 20-30 minutes  
+**Difficulty Rating:** ⭐⭐ (Easy-Medium)
 
-**Enemies:**
-- Dragon Whelps (juvenile dragons)
-- Fire Elementals
-- Dragon-worshipping cultists
-- Elite Drake (miniboss)
+**Unlock Requirements:**
+- Reach Player Level 10
+- Complete Quest: "Threat from the Forest" (from Captain Zara)
+- Pay Unlock Fee: 1,000 IRF (one-time)
+
+**Entry Location:**
+- Town Hub → Forest Gate → Goblin Territory Entrance
+- Interact with Dungeon Portal (glowing green gate)
+
+---
+
+### 2.1.2 Dungeon Structure (Linear Layout)
+
+```
+[ENTRANCE] 
+    ↓
+[OUTER COURTYARD] (Monster Zone 1)
+    ↓
+[FORTRESS WALLS] (Monster Zone 2)
+    ↓
+[INNER KEEP] (Monster Zone 3)
+    ↓
+[THRONE ROOM] (Boss Arena)
+    ↓
+[EXIT PORTAL] (spawns after boss defeat)
+```
+
+**Total Distance:** ~800 meters linear path  
+**Checkpoint System:** 2 checkpoints (Courtyard cleared, Inner Keep entered)  
+**Respawn:** Players respawn at last checkpoint if they die
+
+---
+
+### 2.1.3 Monster Distribution
+
+#### Zone 1: Outer Courtyard (Entry Area)
+
+**Monster 1: Goblin Scout (MON_003)**
+- **Level:** 12 (scaled to dungeon)
+- **HP:** 350 (dungeon-buffed from base 180)
+- **Spawn Count:** 8-12 goblins
+- **Spawn Pattern:** Patrolling in pairs around courtyard
+- **Density:** Medium (2-3 packs of 2-4 goblins)
+- **Location:** Scattered around entrance, near campfires
+- **Behavior:** 
+  - Patrol in set paths (predictable)
+  - Aggro range: 15 meters
+  - Alert nearby goblins when attacked
+  - Run away when HP < 20% (cowardly trait)
+- **Loot:** Goblin Cloth, String, Small IRF (10-25)
+
+**Monster 2: Gray Wolf (MON_002)**
+- **Level:** 11
+- **HP:** 280 (dungeon-buffed)
+- **Spawn Count:** 4-6 wolves
+- **Spawn Pattern:** Roaming in packs of 2-3
+- **Density:** Low (2 wolf packs)
+- **Location:** Near forest edge of courtyard
+- **Behavior:**
+  - Pack hunting (attack together)
+  - Fast movement, chases aggressively
+  - +20% damage if another wolf nearby (Pack Tactics)
+  - Aggro range: 20 meters
+- **Loot:** Wolf Pelt, Raw Meat, Leather
+
+**Environmental Hazards:**
+- Wooden spike traps (100 damage if stepped on)
+- Explosive barrels (can be shot to AoE damage goblins)
+
+---
+
+#### Zone 2: Fortress Walls (Mid-Section)
+
+**Monster 3: Goblin Warrior (MON_005)**
+- **Level:** 14
+- **HP:** 850 (dungeon-buffed from base 500)
+- **Spawn Count:** 10-15 warriors
+- **Spawn Pattern:** Guarding key choke points
+- **Density:** High (3-4 warriors per checkpoint)
+- **Location:** 
+  - 4 warriors at main gate (must defeat to progress)
+  - 3 warriors on wall platforms
+  - 5-8 warriors patrolling inner walls
+- **Behavior:**
+  - Defensive stance (uses shield block 30% of time)
+  - Guards choke points (blocks progression)
+  - Does NOT run away (brave warriors)
+  - Aggro range: 18 meters
+  - Calls for help if player detected
+- **Loot:** Goblin Armor Scrap, Iron Ore, Health Potions
+
+**Monster 4: Goblin Scout (MON_003) - Archers**
+- **Level:** 12
+- **HP:** 300
+- **Spawn Count:** 6-8 archers
+- **Spawn Pattern:** Positioned on elevated platforms
+- **Density:** Medium (2-3 archers per platform)
+- **Location:** Wall towers, elevated platforms (hard to reach)
+- **Behavior:**
+  - Ranged attacks (shoots arrows from distance)
+  - Stays on elevated positions
+  - Runs away if player gets close (melee range)
+  - Shoots at lowest HP player
+  - Aggro range: 25 meters
+- **Loot:** Goblin Cloth, Arrows, String
+
+**Environmental Hazards:**
+- Oil slicks (can be ignited for 200 fire damage/sec)
+- Falling rocks from damaged walls (300 damage)
+
+**Checkpoint 1:** After clearing main gate and wall section
+
+---
+
+#### Zone 3: Inner Keep (Pre-Boss Area)
+
+**Monster 5: Goblin Warrior (MON_005) - Elite Guards**
+- **Level:** 16
+- **HP:** 1,200 (elite variants)
+- **Spawn Count:** 6-8 elite warriors
+- **Spawn Pattern:** Guarding throne room entrance in formation
+- **Density:** High (clustered near boss door)
+- **Location:** 
+  - 4 warriors blocking throne room door (must clear)
+  - 2-4 warriors patrolling keep halls
+- **Behavior:**
+  - Defensive formation (protect each other)
+  - Shield Wall tactic (3+ warriors = reduced damage)
+  - Elite AI (smarter positioning)
+  - Does NOT aggro until player enters inner keep
+- **Loot:** Epic Geode (15%), Goblin Steel, Gold coins (40-80 IRF)
+
+**Monster 6: Gray Wolf (MON_002) - War Wolves**
+- **Level:** 15
+- **HP:** 600 (trained war wolves, stronger)
+- **Spawn Count:** 4 wolves
+- **Spawn Pattern:** Patrolling with elite warriors
+- **Density:** Low (paired with warriors)
+- **Location:** Accompanying goblin elite guards
+- **Behavior:**
+  - Loyal to goblins (attacks player on sight)
+  - Pack Tactics with ANY nearby enemy (not just wolves)
+  - Fast interceptors (rushes ranged players)
+  - Howl alerts ALL nearby enemies
+- **Loot:** Quality Wolf Pelt, Raw Meat
+
+**Checkpoint 2:** After clearing inner keep, before boss door
+
+**Pre-Boss Safe Zone:**
+- Small room before throne room
+- Can rest, prepare buffs
+- Cannot be attacked by monsters
+- Shrine to restore HP/MP to full
+
+---
+
+#### Zone 4: Throne Room (Boss Arena)
+
+**BOSS: Goblin King (MON_010)**
+- **Level:** 20
+- **HP:** 12,000 (scaled for 1-5 players dynamically)
+- **Arena:** Large circular throne room, 40m diameter
+- **See Section 2.1.5 for full boss mechanics**
+
+---
+
+### 2.1.4 Dungeon Scaling System
+
+**Dynamic Difficulty Scaling:**
+```lua
+-- Scaling Formula
+MonsterHP = BaseHP × (1 + 0.3 × (PartySize - 1))
+BossHP = BaseBossHP × (0.8 + 0.3 × PartySize)
+
+Examples:
+1 player solo: Boss HP = 9,600 (80% of base)
+2 players: Boss HP = 13,200 (110%)
+3 players: Boss HP = 16,800 (140%)
+4 players: Boss HP = 20,400 (170%)
+5 players: Boss HP = 24,000 (200%)
+```
+
+**Monster Spawn Scaling:**
+- 1 player: Minimum spawns (8 goblins in Zone 1)
+- 2-3 players: Medium spawns (10 goblins)
+- 4-5 players: Maximum spawns (12 goblins)
+
+**Loot Scaling:**
+- Each player gets PERSONAL chest regardless of party size
+- Loot quality does NOT change with party size
+- Boss always drops same quality per-player
+
+---
+
+### 2.1.5 Boss Fight: Goblin King
+
+**Boss Arena Layout:**
+- Circular throne room, 40 meters diameter
+- Throne at north end
+- 4 pillars (can be used for cover)
+- No environmental hazards (pure combat focus)
+
+**Phase 1 (100-60% HP):**
+
+**Behavior:**
+- Melee combat from throne platform
+- Summons Goblin Warriors periodically
+- Basic attack rotation
+
+**Abilities:**
+- **Cleave Attack:** Wide frontal swing, 120 damage, 120° arc, 1.5 sec telegraph
+- **Summon Royal Guards:** Calls 3 Goblin Warriors (800 HP each) every 30 seconds
+  - Warriors must be killed or they buff king (+10% damage per guard alive)
+  - Max 6 warriors alive at once
+- **Royal Command:** Buffs all goblins +40% damage for 15 seconds (60 sec cooldown)
+  - Visual: Golden aura appears on all goblins
+  - Counter: Kill adds quickly before buff applied
+
+**Phase 2 (60-30% HP):**
+
+**Transition:** 
+- Goblin King jumps off throne
+- Drinks rage potion (2 sec animation)
+- Roars (intimidation effect)
+
+**Behavior:**
+- More aggressive, faster movement (+30% speed)
+- Leaps to players
+- Increased summon rate
+
+**New Abilities:**
+- **Leap Slam:** Jumps to random player, 200 damage + 5m knockback
+  - Warning: Red target circle 2 sec before impact
+  - Counter: Move out of circle
+  - Cooldown: 15 seconds
+- **Enhanced Summon:** Now calls 5 Goblin Warriors instead of 3
+- **Whirlwind Spin:** Spins with weapon extended, 120 damage per hit, hits every 0.5 sec
+  - Duration: 4 seconds
+  - 360° rotation
+  - Counter: Ranged attacks or run away
+  - Cooldown: 25 seconds
+
+**Phase 3 (<30% HP):**
+
+**Transition:**
+- Throws crown to ground
+- Enters berserk rage
+- Red aura surrounds him
+
+**Behavior:**
+- Desperate all-out assault
+- Continuous goblin spawns
+- Highest damage output
 
 **Mechanics:**
-- **Tank Requirements:** Heavy armor needed for dragon attacks
-- **DPS Check:** Burn phases must complete in time
-- **Healer Coordination:** Group healing essential
-- **Environmental Hazards:** Lava flows, falling rocks
+- **Enrage Buff:** +50% attack speed, +40% damage, permanent
+- **Desperate Summons:** Goblin Warriors spawn every 15 seconds (continuous)
+  - Must use AoE to control adds
+  - Max 10 warriors active
+- **Execute Phase:** Must burn boss down quickly or overwhelmed
+- **Final Stand:** At 5% HP, does massive AoE slam (300 damage, entire arena)
+  - Can be interrupted by stunning the king during windup
 
-**Raid Boss:** Ignis the Elder Dragon (See Database_Monsters.md MON_012)
+**Victory Condition:**
+- Goblin King dies
+- All remaining Goblin Warriors flee (despawn)
+- Victory music plays
+- Treasure chests spawn for each player
+- Exit portal appears (3-minute countdown starts)
 
-**Rewards (per player):**
-- Legendary equipment (Level 40-45)
-- Dragon materials (Scale, Heart Gem 30% chance)
-- 50,000-100,000 IRF
-- Mythic Geode (20% chance)
-- Dragon Mount Egg (5% chance)
+---
+
+### 2.1.6 Loot System & Rewards
+
+**Personal Chest System:**
+- Each player receives individual chest
+- Chests spawn at throne platform after boss death
+- Chests have player names above them (cannot loot others)
+- 3-minute timer to loot before force-teleport
+
+**Chest Rarity Roll Per Player:**
+```lua
+-- Each player rolls independently
+RarityRoll = math.random(1, 100)
+
+if RarityRoll <= 5 then
+    ChestRarity = "Legendary" -- 5% chance
+elseif RarityRoll <= 20 then
+    ChestRarity = "Epic" -- 15% chance
+elseif RarityRoll <= 50 then
+    ChestRarity = "Rare" -- 30% chance
+else
+    ChestRarity = "Common" -- 50% chance
+end
+```
+
+**Chest Contents by Rarity:**
+
+**Common Chest (50% chance):**
+- 500-800 IRF
+- Goblin Steel: 5-10 units
+- Iron Ore: 10-20 units
+- 1× Rare equipment (Level 12-18)
+- 2× Common equipment
+- 5× Health Potions (Medium)
+
+**Rare Chest (30% chance):**
+- 1,200-1,800 IRF
+- Goblin Steel: 10-20 units
+- Gold Ore: 5-10 units
+- 2× Rare equipment (Level 12-18)
+- 1× Epic equipment (30% chance)
+- Epic Geode: 1-2 units
+- 10× Health Potions (Medium)
+
+**Epic Chest (15% chance):**
+- 2,500-4,000 IRF
+- Goblin Steel: 20-30 units
+- Gold Ore: 10-20 units
+- 2× Epic equipment (Level 14-18)
+- 1× Legendary equipment (20% chance)
+- Epic Geode: 3-5 units
+- Legendary Geode: 1 unit (40% chance)
+- 15× Health Potions (Large)
+
+**Legendary Chest (5% chance):**
+- 5,000-8,000 IRF
+- Goblin Steel: 40-60 units
+- Mithril Ore: 5-10 units
+- 3× Epic equipment
+- 1× Legendary equipment (guaranteed)
+- Legendary Geode: 2-3 units
+- **Goblin Mount Egg** (10% chance within Legendary chest)
+- **Goblin King Crown** (cosmetic hat, 5% chance)
+- 20× Health Potions (Large)
+
+**Guaranteed Boss Drops (ALL players receive):**
+- Achievement: "Goblin Slayer" (first clear)
+- 200 XP (base) × party size multiplier
+- Goblin King Trophy (quest item for Captain Zara)
+
+---
+
+### 2.1.7 Exit System
+
+**Exit Portal Mechanics:**
+
+**Portal Spawn:**
+- Appears 5 seconds after boss death
+- Location: Center of throne room
+- Visual: Glowing blue swirling portal
+- Sound: Mystical humming
+
+**3-Minute Countdown:**
+- Countdown UI appears top of screen
+- Text: "Portal closing in 2:45..."
+- Warning at 1 minute: "Portal closing soon!"
+- Warning at 30 seconds: "Portal closing! Finish looting!"
+
+**Force Teleport:**
+- At 0:00, ALL remaining players teleported to Main Town
+- Teleports to Town Square spawn point
+- Unlocked chests are LOST if not looted
+- Warning message: "You have been teleported out of the dungeon"
+
+**Manual Exit (Teleportation Scroll):**
+- Item: Teleportation Scroll
+- Purchase from: **Gruff the Blacksmith** (Town Hub, Blacksmith Shop)
+- Cost: 100 IRF per scroll
+- Usage: Right-click scroll in inventory → "Use" → instant teleport to Main Town
+- Can be used ANYWHERE in dungeon (even during combat)
+- Has 3-second cast time (can be interrupted by damage)
+- Visual: Blue magic circle appears under player
+
+---
+
+### 2.1.8 Daily Lockout System
+
+**Completion Limits:**
+- Can run dungeon **3 times per day** (resets at midnight UTC)
+- Loot Quality:
+  - **1st run:** 100% loot (full rewards)
+  - **2nd run:** 60% loot (reduced chest quality)
+  - **3rd run:** 30% loot (minimal rewards)
+- XP always full (no reduction)
+- Achievements only granted on first-ever clear
+
+**Lockout Display:**
+- Dungeon portal shows: "Runs remaining today: 2/3"
+- After 3 runs: "Daily limit reached. Resets in 8 hours"
+
+---
+
+---
+
+## DUNGEON 2: CRYSTAL CAVERN
+
+### 2.2.1 Basic Information
+
+**Dungeon Type:** Elite Dungeon  
+**Theme:** Magical crystal caves, arcane guardians  
+**Minimum Level:** 25  
+**Recommended Level:** 28-35  
+**Party Size:** 1-5 players (scalable difficulty)  
+**Estimated Clear Time:** 35-45 minutes  
+**Difficulty Rating:** ⭐⭐⭐⭐ (Medium-Hard)
+
+**Unlock Requirements:**
+- Reach Player Level 25
+- Clear Goblin Fortress at least once
+- Complete Quest: "Mysterious Crystal Signals" (from Elder Willow)
+- Pay Unlock Fee: 5,000 IRF (one-time)
+
+**Entry Location:**
+- Mountain Pass → Crystal Canyon → Cavern Entrance
+- Large crystal formation acts as portal
+
+---
+
+### 2.2.2 Dungeon Structure (Linear Layout)
+
+```
+[ENTRANCE CHAMBER]
+    ↓
+[CRYSTAL MAZE] (Puzzle + Monster Zone 1)
+    ↓
+[UNDERGROUND LAKE] (Monster Zone 2)
+    ↓
+[CRYSTAL FOREST] (Monster Zone 3)
+    ↓
+[GUARDIAN SANCTUM] (Boss Arena)
+    ↓
+[EXIT PORTAL]
+```
+
+**Total Distance:** ~1,200 meters  
+**Checkpoint System:** 3 checkpoints  
+**Special Feature:** Puzzle mechanics integrated
+
+---
+
+### 2.2.3 Monster Distribution
+
+#### Zone 1: Crystal Maze (Entry + Puzzle Area)
+
+**Monster 1: Giant Cave Spider (MON_006)**
+- **Level:** 28
+- **HP:** 1,800 (dungeon-buffed)
+- **Spawn Count:** 10-15 spiders
+- **Spawn Pattern:** Hanging from ceiling, ambush-style
+- **Density:** High (narrow corridors = frequent encounters)
+- **Location:**
+  - 4-6 spiders in entrance chamber
+  - 6-9 spiders throughout maze corridors
+  - Ambush points at puzzle switches
+- **Behavior:**
+  - Drops from ceiling (surprise attacks)
+  - Poison Bite (30% chance, 25 damage/sec for 5 sec)
+  - Web Shot (slows player 50% for 3 sec, 15 sec cooldown)
+  - Aggro range: 12 meters
+  - Groups of 2-3 attack together
+- **Loot:** Spider Silk, String, Poison Gland
+
+**Environmental Puzzle:**
+- **Crystal Color Matching Puzzle**
+- 4 colored crystals (Red, Blue, Green, Purple)
+- Must activate in correct sequence (shown in murals on walls)
+- Wrong order = electric shock (150 damage + stun 2 sec)
+- Correct order = gate opens to next area
+- Spiders respawn if puzzle takes too long (5 minutes)
+
+---
+
+#### Zone 2: Underground Lake (Water Area)
+
+**Monster 2: Fire Elemental (MON_008) - Crystal Variant**
+- **Level:** 30
+- **HP:** 2,200 (dungeon-buffed)
+- **Damage:** Crystal magic instead of fire
+- **Spawn Count:** 8-12 elementals
+- **Spawn Pattern:** Floating around lake shores and platforms
+- **Density:** Medium (spread across large area)
+- **Location:**
+  - 4-5 elementals near shore entrances
+  - 4-6 elementals on floating platforms
+  - 2-3 elementals guarding checkpoint
+- **Behavior:**
+  - Ranged crystal shard projectiles (120 damage)
+  - Crystal Burst AoE (200 damage, 5m radius, 20 sec cooldown)
+  - Floating/flying (immune to ground effects)
+  - Keeps distance from melee players
+  - Aggro range: 20 meters
+- **Resistances:** Physical -40%, Magic -20%
+- **Weaknesses:** Blunt weapons +30%
+- **Loot:** Crystal Essence, Amethyst, Ruby
+
+**Environmental Hazards:**
+- Deep water (players can't swim, instant death if fall in)
+- Floating platform bridges (must jump carefully)
+- Crystal stalactites (fall if vibrations, 300 damage)
+
+**Checkpoint 2:** Safe platform after crossing lake
+
+---
+
+#### Zone 3: Crystal Forest (Pre-Boss Area)
+
+**Monster 3: Orc Warrior (MON_007) - Crystal Cultists**
+- **Level:** 32
+- **HP:** 3,000 (elite dungeon variant)
+- **Spawn Count:** 8-10 cultist orcs
+- **Spawn Pattern:** Patrolling and praying at crystal shrines
+- **Density:** High (clustered near boss entrance)
+- **Location:**
+  - 3-4 orcs guarding bridge to boss area
+  - 2-3 orcs at each crystal shrine (2 shrines)
+  - 2 orcs patrolling main path
+- **Behavior:**
+  - Power Strike (200 damage, 10 sec cooldown)
+  - War Cry buffs nearby enemies +25% damage
+  - Crystal Armor buff (absorbs 500 damage)
+  - Aggressive charge attacks
+  - Does NOT retreat
+- **Loot:** Orc Steel, Gold Ore, Epic equipment (20%)
+
+**Monster 4: Giant Cave Spider (MON_006) - Elite Variants**
+- **Level:** 30
+- **HP:** 2,400 (elite spiders)
+- **Spawn Count:** 6 elite spiders
+- **Spawn Pattern:** Guarding crystal formations
+- **Density:** Low (paired with orcs)
+- **Location:** Accompanying orc cultists
+- **Behavior:**
+  - Enhanced Web Shot (70% slow for 5 sec)
+  - Poison Bite always applies (not chance-based)
+  - Pack coordination with orcs
+- **Loot:** Quality Spider Silk, Epic Geode (15%)
+
+**Pre-Boss Chamber:**
+- Large crystal formation arena entrance
+- Safe zone before boss
+- Healing shrine available
+- Lore stone (readable text about Guardian)
+
+**Checkpoint 3:** Before boss door
+
+---
+
+### 2.2.4 Boss Fight: Ancient Crystal Guardian
+
+**BOSS: Ancient Crystal Guardian (MON_011)**
+- **Level:** 35
+- **HP:** 30,000 (scaled for 1-5 players)
+- **Arena:** Massive circular crystal chamber, 60m diameter, floating platforms
+
+**Boss Scaling:**
+- 1 player: 24,000 HP
+- 2 players: 33,000 HP
+- 3 players: 42,000 HP
+- 4 players: 51,000 HP
+- 5 players: 60,000 HP
+
+**Phase 1 (100-70% HP): Crystal Shield Active**
+
+**Core Mechanic:**
+- Boss has INVULNERABLE shield
+- 4 Power Crystals around arena must be destroyed
+- Each crystal has 3,000 HP
+- Boss can only be damaged after all 4 crystals destroyed
+
+**Boss Behavior:**
+- Stationary in center of arena
+- Casts defensive magic
+- Summons Crystal Elementals
+
+**Abilities:**
+- **Crystal Spike Rain:** Spikes fall from ceiling (120 damage each, dodge circles)
+  - Frequency: Every 10 seconds
+  - Affects random 5m circles across arena
+- **Summon Crystal Minions:** Creates 4 Crystal Elementals
+  - Elementals: 2,500 HP each, ranged attacks
+  - Spawn every 45 seconds
+  - Must be cleared to focus on crystals
+- **Shield Pulse:** Damages players within 10m of boss (50 damage/sec)
+  - Forces players to destroy crystals from range
+
+**Crystal Destruction:**
+- Players must destroy 4 crystals around arena perimeter
+- Crystals glow (Red, Blue, Green, Purple)
+- Each crystal destroyed = Guardian takes 5% max HP damage
+- When all 4 destroyed: Shield shatters, Phase 2 begins
+
+**Phase 2 (70-40% HP): Aggressive Assault**
+
+**Transition:**
+- Shield shatters (animation)
+- Guardian roars (screen shake)
+- Becomes mobile and aggressive
+
+**Boss Behavior:**
+- Moves around arena
+- Melee and ranged magic attacks
+- Much more dangerous
+
+**Abilities:**
+- **Crystal Slam:** Melee attack, 250 damage, small AoE
+  - Swing animation 1.5 sec telegraph
+- **Prismatic Beam:** Sweeping laser beam across arena
+  - 400 damage if hit
+  - Beam sweeps 180° over 3 seconds
+  - Clear audio warning ("PRISM CHARGING")
+  - Counter: Run perpendicular to beam
+  - Cooldown: 25 seconds
+- **Crystal Spike Barrage:** Rapid-fire spike projectiles at players
+  - 80 damage per spike
+  - Shoots 15 spikes over 5 seconds
+  - Targets random players
+- **Crystal Storm AoE:** Creates crystal explosions across arena
+  - 200 damage per explosion
+  - 5 random locations
+  - Warning: Ground cracks appear 2 sec before
+
+**Phase 3 (<40% HP): Shield Reformation**
+
+**Transition:**
+- Guardian reforms crystal shield
+- Now 6 Power Crystals instead of 4
+- Boss becomes invulnerable again
+
+**Boss Behavior:**
+- Even more aggressive when vulnerable
+- Uses ALL previous abilities
+- Faster ability cooldowns
+
+**Mechanics:**
+- Must destroy 6 crystals (3,500 HP each)
+- Crystals now respawn if not destroyed fast enough (2-minute timer)
+- Guardian summons Crystal Elementals more frequently (every 30 sec)
+- Arena hazards intensify:
+  - More Crystal Spike Rain
+  - Faster Prismatic Beam sweeps
+  - Continuous Crystal Storms
+
+**Final Burn Phase (<40% HP, crystals destroyed):**
+- All abilities active
+- Enrage timer (10 minutes from start, soft enrage)
+- If enrage reached: Boss gains +100% damage (likely wipe)
+- Must coordinate and burn boss down quickly
+
+**Victory:**
+- Guardian shatters into crystal fragments
+- Central crystal core remains (lootable)
+- Victory fanfare
+- Personal chests spawn for each player
+- Exit portal appears with 3-minute countdown
+
+---
+
+### 2.2.5 Loot System & Rewards
+
+**Personal Chest Rarity Roll:**
+```lua
+-- Higher chance for better loot (Elite Dungeon)
+RarityRoll = math.random(1, 100)
+
+if RarityRoll <= 10 then
+    ChestRarity = "Legendary" -- 10% chance
+elseif RarityRoll <= 35 then
+    ChestRarity = "Epic" -- 25% chance
+elseif RarityRoll <= 70 then
+    ChestRarity = "Rare" -- 35% chance
+else
+    ChestRarity = "Common" -- 30% chance
+end
+```
+
+**Common Chest (30%):**
+- 2,000-3,500 IRF
+- Crystal Essence: 10-20 units
+- Amethyst: 5-10 units
+- 2× Epic equipment (Level 28-35)
+- Epic Geode: 2-3 units
+
+**Rare Chest (35%):**
+- 4,500-7,000 IRF
+- Crystal Essence: 20-40 units
+- Amethyst: 10-20 units
+- Diamond: 3-6 units
+- 3× Epic equipment
+- 1× Legendary equipment (40% chance)
+- Legendary Geode: 1-2 units
+
+**Epic Chest (25%):**
+- 9,000-15,000 IRF
+- Crystal Core Fragment: 5-10 units (rare crafting)
+- Diamond: 10-20 units
+- Mythril Ore: 3-6 units
+- 2× Legendary equipment
+- Legendary Geode: 3-5 units
+- Mythic Geode: 1 unit (30% chance)
+
+**Legendary Chest (10%):**
+- 20,000-35,000 IRF
+- Ancient Crystal Core: 1 unit (Mythic crafting, 10,000 IRF value)
+- Diamond: 30-50 units
+- Mythril Ore: 10-20 units
+- 3× Legendary equipment
+- Mythic Geode: 2-4 units
+- **Crystal Guardian Pet Egg** (5% chance, Legendary familiar)
+- **Crystal Weapon/Armor Set Piece** (15% chance, special visual effects)
+
+**Guaranteed Drops (ALL players):**
+- Achievement: "Crystal Champion" (first clear)
+- Title: "Crystal Champion" (first clear)
+- 800 XP base
+- Crystal Guardian Trophy
+
+---
+
+---
+
+## DUNGEON 3: VOLCANIC CORE
+
+### 2.3.1 Basic Information
+
+**Dungeon Type:** Elite Dungeon  
+**Theme:** Lava, fire, volcanic environment  
+**Minimum Level:** 35  
+**Recommended Level:** 38-45  
+**Party Size:** 1-5 players (scalable)  
+**Estimated Clear Time:** 40-50 minutes  
+**Difficulty Rating:** ⭐⭐⭐⭐⭐ (Hard)
+
+**Unlock Requirements:**
+- Reach Player Level 35
+- Clear Crystal Cavern at least once
+- Complete Quest: "The Volcanic Threat" (from Captain Zara)
+- Pay Unlock Fee: 15,000 IRF
+
+**Entry Location:**
+- Volcanic Region → Lava Fields → Core Entrance
+- Entrance is a massive lava cave
+
+---
+
+### 2.3.2 Dungeon Structure
+
+```
+[LAVA ENTRANCE]
+    ↓
+[MAGMA TUNNELS] (Monster Zone 1)
+    ↓
+[OBSIDIAN CHAMBER] (Monster Zone 2 + Miniboss)
+    ↓
+[MOLTEN CORE] (Monster Zone 3)
+    ↓
+[GOLEM FORGE] (Boss Arena)
+    ↓
+[EXIT PORTAL]
+```
+
+**Total Distance:** ~1,500 meters  
+**Environmental Danger:** Constant heat (10 damage/sec if not on safe platforms)
+
+---
+
+### 2.3.3 Monster Distribution
+
+#### Zone 1: Magma Tunnels
+
+**Monster 1: Fire Elemental (MON_008)**
+- **Level:** 38
+- **HP:** 3,200
+- **Spawn Count:** 15-20 elementals
+- **Spawn Pattern:** Floating along lava rivers
+- **Density:** Very High
+- **Location:** Throughout tunnels
+- **Behavior:**
+  - Fireball attacks (140 damage)
+  - Flame Burst AoE (300 damage, 5m)
+  - Burning Aura (15 damage/sec nearby)
+- **Loot:** Fire Essence, Ruby, Obsidian
+
+#### Zone 2: Obsidian Chamber
+
+**Monster 2: Lava Golem (MON_009) - Miniboss**
+- **Level:** 40
+- **HP:** 15,000 (miniboss)
+- **Spawn Count:** 1 miniboss
+- **Location:** Center of chamber (blocks progression)
+- **Behavior:**
+  - Earthquake Stomp (250 AoE, stuns 2 sec)
+  - Lava Armor (reflects 25% melee damage)
+  - Molten Core enrage at 30% HP
+- **Loot:** Lava Core (100%), Obsidian (20-40 units), Epic/Legendary gear (50%)
+
+**Monster 3: Fire Elemental (MON_008)**
+- **Level:** 39
+- **HP:** 3,400
+- **Spawn Count:** 8-12 elementals
+- **Location:** Supporting miniboss
+- **Behavior:** Standard fire elemental tactics
+
+#### Zone 3: Molten Core (Pre-Boss)
+
+**Monster 4: Orc Warrior (MON_007) - Fire Cultists**
+- **Level:** 42
+- **HP:** 4,500
+- **Spawn Count:** 10-12 orcs
+- **Location:** Guarding forge entrance
+- **Behavior:**
+  - Enhanced Power Strike (300 damage)
+  - Fire-enchanted weapons
+  - War Cry + fire buff
+
+**Monster 5: Lava Golem (MON_009) - Guards**
+- **Level:** 41
+- **HP:** 8,000
+- **Spawn Count:** 2 golems
+- **Location:** Flanking boss door
+- **Behavior:** Standard golem mechanics
+
+---
+
+### 2.3.4 Boss Fight: Molten Titan
+
+**BOSS: Molten Titan (Enhanced Lava Golem)**
+- **Level:** 45
+- **HP:** 80,000 (scaled 1-5 players)
+- **Arena:** Circular forge, lava pools, platforms
+
+**Phase 1 (100-60% HP):**
+- Earthquake Stomp (300 damage, 3 sec stun)
+- Lava Geyser (400 damage, erupts under random player)
+- Summon 4 Fire Elementals every 40 seconds
+
+**Phase 2 (60-30% HP):**
+- Molten Armor (reflects 50% damage)
+- Magma Wave (sweeps across arena, 500 damage)
+- Arena lava rises (reduces safe platforms)
+
+**Phase 3 (<30% HP):**
+- Enrage mode (+80% damage)
+- Continuous Fire Elemental spawns
+- Meteor Storm (200 damage meteors rain down)
+- Must burn quickly or wipe
+
+**Loot:** Similar structure to Crystal Cavern, higher IRF/materials  
+Legendary Chest can contain: **Molten Mount Egg (8%), Lava Core Weapon (12%)**
+
+---
+
+---
+
+## DUNGEON 4: DRAGON'S LAIR
+
+### 2.4.1 Basic Information
+
+**Dungeon Type:** Raid Dungeon  
+**Theme:** Epic dragon lair, ultimate challenge  
+**Minimum Level:** 45  
+**Recommended Level:** 48-50  
+**Party Size:** 3-8 players (REQUIRES minimum 3 players)  
+**Estimated Clear Time:** 60-90 minutes  
+**Difficulty Rating:** ⭐⭐⭐⭐⭐⭐ (Extreme)
+
+**Unlock Requirements:**
+- Reach Player Level 45
+- Clear ALL 3 previous dungeons
+- Complete Quest Chain: "The Dragon Threat" (5-part quest from Captain Zara)
+- Pay Unlock Fee: 50,000 IRF
+
+**IMPORTANT:** Cannot enter solo - requires 3-8 players in party
+
+---
+
+### 2.4.2 Dungeon Structure
+
+```
+[MOUNTAIN ENTRANCE]
+    ↓
+[DRAGON HOARD] (Monster Zone 1)
+    ↓
+[LAVA CHAMBERS] (Monster Zone 2 + Hazards)
+    ↓
+[DRAKE NESTS] (Monster Zone 3 + Mini-bosses)
+    ↓
+[DRAGON'S THRONE] (Final Boss Arena)
+    ↓
+[EXIT PORTAL]
+```
+
+**Total Distance:** ~2,500 meters (longest dungeon)
+
+---
+
+### 2.4.3 Monster Distribution
+
+#### Zone 1: Dragon Hoard
+
+**Monster 1: Orc Warrior (MON_007) - Dragon Cultists**
+- **Level:** 46
+- **HP:** 6,000
+- **Spawn Count:** 20-30 cultists
+- **Density:** Very High (guards treasure)
+- **Location:** Patrolling hoard chamber
+- **Behavior:** Elite tactics, dragon-empowered
+
+**Monster 2: Fire Elemental (MON_008)**
+- **Level:** 47
+- **HP:** 4,500
+- **Spawn Count:** 15-20 elementals
+- **Location:** Floating near lava pools
+
+#### Zone 2: Lava Chambers
+
+**Environmental Challenges:**
+- Moving lava flows (500 damage/sec if touched)
+- Collapsing bridges
+- Timed platforming sections
+
+**Monster 3: Lava Golem (MON_009) - Elite Guardians**
+- **Level:** 48
+- **HP:** 12,000
+- **Spawn Count:** 4-6 golems
+- **Location:** Blocking key passages
+
+#### Zone 3: Drake Nests (3 Mini-Bosses)
+
+**Mini-Boss 1: Fire Drake Alpha**
+- **Level:** 49
+- **HP:** 40,000
+- **Mechanics:** Dragon breath, flight phases
+- **Must defeat to progress**
+
+**Mini-Boss 2: Shadow Drake**
+- **Level:** 49
+- **HP:** 35,000
+- **Mechanics:** Stealth attacks, poison
+
+**Mini-Boss 3: Storm Drake**
+- **Level:** 49
+- **HP:** 35,000
+- **Mechanics:** Lightning, wind attacks
+
+---
+
+### 2.4.4 Boss Fight: Elder Dragon Ignis
+
+**BOSS: Ignis the Elder Dragon (MON_012)**
+- **Level:** 50
+- **HP:** 200,000 (scaled for 3-8 players)
+- **Arena:** Massive open-air dragon throne, 100m diameter
+
+**Party Scaling:**
+- 3 players: 150,000 HP
+- 4 players: 175,000 HP
+- 5 players: 200,000 HP
+- 6 players: 225,000 HP
+- 7 players: 250,000 HP
+- 8 players: 280,000 HP
+
+**Phase 1 (100-75% HP): Ground Combat**
+- Claw attacks (400 damage)
+- Tail swipe (350 AoE)
+- Fire breath cone (500 damage, 25m)
+- Summon 6 Dragon Whelps (7,000 HP each) every 60 sec
+
+**Phase 2 (75-50% HP): Flight Phase**
+- Dragon takes flight
+- Aerial fire bombing (250 damage per bomb)
+- Divebomb attacks (600 damage + knockback)
+- Must use ranged attacks
+
+**Phase 3 (50-25% HP): Enraged Ground**
+- Returns to ground, enraged
+- Inferno breath (800 damage, 35m cone)
+- Earthquake stomp (400 AoE, 4 sec stun)
+- Summons 12 Dragon Whelps
+- Arena burns (200 damage/sec outside safe zones)
+
+**Phase 4 (<25% HP): Desperate Flight**
+- Final flight phase
+- Meteor rain (200 damage per meteor, covers arena)
+- Ultimate divebomb (1,000 damage)
+- Must kill before mechanics overwhelm
+
+**Special Mechanic: Tank Requirement**
+- Dragon's attacks deal massive damage
+- Requires dedicated tank with heavy armor
+- Healers recommended for raid survival
+
+---
+
+### 2.4.5 Loot System & Rewards (Raid-Tier)
+
+**Legendary Chest (Guaranteed for all players):**
+- 50,000-100,000 IRF per player
+- Dragon Scale: 100-200 units
+- Dragon Heart Gem: 1 unit (30% chance, Mythic material)
+- 4× Legendary equipment (Level 45-50)
+- Mythic Geode: 3-6 units
+- Mythril/Adamantite: 100-200 units
+
+**Ultra-Rare Drops (Individual rolls):**
+- **Dragon Mount Egg:** 8% chance (flying mount)
+- **Dragon Weapon Set:** 15% chance (special dragon-tier weapons with fire effects)
+- **Dragon Armor Set:** 12% chance (highest defense in game)
+- **Void Crystal:** 5% chance (ultimate crafting material)
+
+**Guaranteed Rewards:**
 - Achievement: "Dragon Slayer"
 - Title: "Dragonbane"
+- 5,000 XP
+- Dragon Trophy (prestigious item)
+
+**Weekly Lockout:**
+- Can only loot boss ONCE per week per difficulty
+- Resets Monday 00:00 UTC
+- Can help friends but won't receive loot after weekly clear
+- XP still awarded on repeat kills
 
 ---
 
-### 2.4 Event Dungeons (Limited Time)
+---
 
-#### Halloween: Pumpkin Patch of Terror
-**Theme:** Spooky Halloween  
-**Availability:** October 1-31  
-**Level:** Scales 15-50 (enters at your level)  
-**Recommended Party:** 3-5 players  
-**Length:** 25-35 minutes
+## Summary Table: All 4 Dungeons
 
-**Enemies:**
-- Possessed Pumpkins
-- Ghost Pumpkin Fiends
-- Skeleton Warriors (Halloween themed)
-- Haunted Scarecrows
-
-**Boss:** The Pumpkin King (giant jack-o'-lantern boss)
-
-**Mechanics:**
-- **Trick or Treat Chests:** Random good/bad effects
-- **Candy Collection:** Currency for event shop
-- **Costume Buff:** Wearing Halloween cosmetics = stat boost
-
-**Rewards:**
-- Halloween Tokens (event currency)
-- Ghost Pumpkin Seeds
-- Exclusive Halloween cosmetics
-- Special titles
-- Halloween mount (rare drop)
+| Dungeon | Type | Min Lvl | Rec Lvl | Party Size | Length | Boss | Difficulty |
+|---------|------|---------|---------|------------|--------|------|------------|
+| **Goblin Fortress** | Normal | 10 | 12-18 | 1-5 | 20-30m | Goblin King | ⭐⭐ |
+| **Crystal Cavern** | Elite | 25 | 28-35 | 1-5 | 35-45m | Crystal Guardian | ⭐⭐⭐⭐ |
+| **Volcanic Core** | Elite | 35 | 38-45 | 1-5 | 40-50m | Molten Titan | ⭐⭐⭐⭐⭐ |
+| **Dragon's Lair** | Raid | 45 | 48-50 | 3-8 | 60-90m | Elder Dragon | ⭐⭐⭐⭐⭐⭐ |
 
 ---
 

@@ -119,19 +119,16 @@
 - **Category:** Taming
 
 **Benefits:**
-- Max active familiars: 10 (vs 5 free)
 - Max owned familiars: 50 (vs 30 free)
 - Unlock Familiar Sanctuary building
 - +10 stable slots
 
 **P2W Status:** ⚠️ MINOR - More variety, not more power  
 **Tradeable:** No (account-bound)  
-**IRF Alternative:** Partial (can unlock +2 capacity for 20,000 IRF)
 
 **Notes:**
 - Only ONE familiar can be active in combat at a time
 - Extra capacity is for VARIETY, not stat stacking
-- Free players can complete all content with 5 familiars
 
 ---
 
