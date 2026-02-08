@@ -517,6 +517,10 @@ Modified Drop Rate = Base Rate × (1 + (Luck Points / 100))
    - Warning at <100 uses: Orange text
    - Critical at <20 uses: Flashing red
    - Icon shows tool rarity color
+   - Tools will break once their durability reaches zero
+   - Players are able to repair tools at the Blacksmith NPC, with a maximum of two repairs per tool
+   - After a tool has been repaired twice, it will become permanently broken and can no longer be repaired
+   - Players must purchase a new tool to replace a permanently broken one
 
 3. **Mining Progress Feedback**
    - Damage numbers optional (settings toggle)
@@ -564,7 +568,7 @@ QUICK SWAP: [1] Weapon / [2] Tool
 - Press [2] to equip tool slot
 - 0.5 second swap animation
 - Cannot swap during mining/combat animations
-- Hotkeys configurable in settings
+
 
 ---
 
