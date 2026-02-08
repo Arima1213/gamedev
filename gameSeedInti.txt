@@ -1,0 +1,349 @@
+
+ 
+core content :
+1. mining system
+·         mining hanya bisa dilakukan di dalam dungeon
+·         mining hanya bisa menggunakan alat mining
+·         alat mining bisa di buat di npc menggunakan bahan dan uang
+·         alat mining akan memiliki rarity dan stats(kecepatan mining)
+·         semakin tinggi rarity maka semakin cepat menambang batu
+·         batu memiliki bar poin kerusakan
+·         semakin besar batu semakin tebal bar poinnya
+·         ketika mining player bisa mendapatkan mineral atau bahkan tidak mendapatkan apapun
+·         batu akan terspawn random lokasinya di dalam dungeon
+·         batu memiliki ukuran
+·         ukuran batu akan meningkatkan presentase jumlah item yang didapatkan
+·         batu kecil bisa mendapatkan 1 atau bahkan tidak mendapatkanitem
+·         batu besar bisa mendapatkan 3 hingga 1 item
+·         menambang batu dapat mendapatkan mineral normal atau geode dengan presentase tertentu
+·         geode memiliki rarity namun tidak di pengaruhi alat
+·         geode bisa di buka di npc blacksmith untuk mendapatkan mineral Langkah dengan presentase tergantung rarity geode
+·         mineral memiliki tingkatan
+ 
+2. fishing system
+·         memancing hanya dapat dilakukan di laut atau sungai
+·         ikan yang ada di laut dan sungai akan berbeda tergantung lokasi dan cuaca
+·         memancing membutuhkan alat pancing
+·         alat pancing memiliki rarity
+·         alat pancing dapat dibeli di npc
+·         untuk membeli alat yang lebih bagus player harus menyelesaikan quest tertentu dan memberikannya kepada npc
+Alat pancing dapat di beri buff stats dengan cara; player memberikan material tertentu ke npc blacksmith lalu akan ditempa (visual alat pancing akan memiliki aura ketika selesai diberi buff)
+Akan disediakan skin untuk alat pancing yang dapat di beli di game shop menggunakan robux
+·         ikan juga memiliki rarity dan hanya akan bisa dipancing sesuai dengan rarity alat pancing
+·         ikan memiliki presentase untuk dipancing semakin Langkah ikannya maka presentase untuk mendapatkannya akan semakin kecil namun itu bisa ditingkatkan dengan mengupgrade alat pancing dan diboost menggunakan luck system/buff dari pet maupun alat pancing
+·         di laut dan Sungai akan memiliki Lokasi lokasi tersendiri
+·         di Lokasi Lokasi tersebut akan mendapatkan ikan berbeda beda semisal di Lokasi Sungai A maka mendapatkan ikan a, b, c. dan di Sungai G akan mendapatkan ikan G, H,I. begitu juga dengan laut.
+3. farming system
+·         farming hanya dapat di lakukan di lahan Perkebunan yang telah disedikan private island
+·         lahan farm hanya bisa di akses oleh player pemilik private island
+·         tanaman berasal dari seed yang ditanam dilahan kemudian akan tumbuh dalam jangka waktu tertentu sesuai rarity seed
+·         seed memiliki rarity
+·         di early game player mendapatkan lahan gratis 2 petak
+·         1 petak dapat ditanami 5 seed
+·         Seed dapat diperoleh dari beberapa cara:
+1.  	seed  common; dibeli dari shop npc
+2.  	seed rare s/d mythic; dibeli dari shop game menggunakan robux
+3.  	seed common s/d mythic; dibeli dari pedagang keliling yang muncul pada waktu tertentu namun akan diberikan limit pembeliannya semakin langkah makan jumlah seed yang dijual akan semakin terbatas
+4.  	seed common s/d mythic; bisa di dapatkan dari drop item setelah mengalahkan monster di dungeon namun jumlahnya terbatas dan drop ratenya menyesuaikan rarity seed
+5.  	seed special event; hanya dibisa dibeli dishop atau menyelesaikan quest event tertentu
+·         tingkatan seed :
+o   seed common -> abu abu
+o   seed rare -> biru
+o   seed epic -> ungu
+o   seed legendary -> emas glow
+o   seed mythic -> merah glow
+o   seed special -> rainbow glow
+·         lahan dapat di expand menggunakan robux (semakin lebar lahan maka biaya akan semakin bertambah)
+·         ada dua jenis seed yakni seed sekali panen dan seed yang bisa dipanen berkali kali
+·         tanaman yang dapat dipanen berkali kali harga jualnya akan lebih rendah jika dibandingkan tanaman yang hanya bisa sekali panen namun dengan perbandingan rarity yang sama
+·         seed harus disiram setiap pagi
+·         springkle Adalah alat penyiram otomatis yang dapat dibeli di game shop dengan robux
+·         seed dan hasil panen bisa dijual di npc farmer atau dijual di global trading system ataupun di trade antar player
+·         hasil panen juga akan memiliki kualitas panen
+·         cara meningkatkan kualitas panen:
+1.diberi pupuk peningkat dengan presentase 100% kualitas sempurna
+2.buff dari pet tertentu dengan presentase tertentu
+3.jika hujan akan meningkatkan presentase hasil panen
+·         kualitas panen akan ditandai dengan icon Bintang:
+1.no icon= jelek
+2.perak= cukup baik
+3.emas= baik
+4.ungu= sangat baik
+5.rainbow= sempurna
+·         pupuk hanya bisa dibeli di game shop menggunakan robux dengan beberapa tingkatan pupuk sesuai dengan kualitas panen yang di inginkan
+·         semakin bagus kualitas panen maka harga jualnya akan semakin mahal
+4. dungeon system (didalam dungeon bisa mining)
+·          Dungeon adalah sebuah goa yang terletak di pinggiran kota
+Di dalam dungeon berisi batu batu untuk player menambang material yang akan digunakan untuk crafting dan terdapat juga monster monster yang akan menyerang player yang sedang di menambang
+Player harus mengalahkan monster monster tersebut menggunakan senjata yang di tempa di npc blacksmith
+Monster yang berhasil dikalahkan akan berkesempatan menjatuhkan daging dan material pecahan tubuh monster yang digunakan untuk crafting senjata/enhance 
+Daging monster bisa dijadikan umpan taming creature karnivora (tipe aktif)
+Monster dungeon juga memiliki jenis tersendiri dan memiliki rarity 
+Material monster juga memiliki rarity mengikuti rarity dari monsternya
+Boss dungeon juga akan di munculkan pada waktu atau event tertentu
+Material monster dari boss dungeon adalah material dengan rarity event eksklusif
+Rarity monster antara lain:
+Common
+Rare
+Epic
+Legend
+Mythic
+Special
+5. taming system
+Player disini juga bisa tame familiar
+Familiar memiliki rarity:
+Common
+Rare
+Epic
+Legend
+Mythic
+Special
+Presentase spawn familiar di pengaruhi oleh rarity, semakin tinggi raritynya maka akan semakin kecil presentase kemunculannya
+Cara tame familiar adalah dengan memberikan dia hasil panen/daging monster tertentu tergantung tipe familiar yang akan disesuaikan (konsep sementara)
+Taming juga memiliki presentase keberhasilan yang akan di pengaruhi oleh beberapa factor:
+Kualitas dari hasil panen/daging yang diberikan 
+Luck (maka boost luck juga akan mempengaruhi)
+Player memiliki daftar koleksi familiar dengan tingkat rarity
+Familiar memiliki efek buff pada player (semakin tinggi rarity nya maka buffnya akan semakin bagus)
+Familiar yang berhasil di tame dapat di bawa berpetualang dan akan memberikan buff tertentu ketika di bawa
+Familiar yang berhasil di tame akan otomatis mengisi daftar koleksi
+Familiar yang berhasil di tame maka akan bisa disimpan di storage atau bisa di lepas di private island 
+Familiar memiliki 2 tipe:
+Aktif (dapat bertarung dan memiliki skill atktif)
+Pasif (tidak dapat menyerang namun memiliki skill pasif yakni buff untuk membantu progress private island)
+Familiar memiliki level dan ukuran yang akan meningkat berdesarkan levelnya 
+Cara menaikkan level familiar adalah dengan diberi makan dari hasil panen atau hasil memancing
+Tipe aktif adalah karnivora yang memakan hasil memancing
+Tipe pasif adalah herbivora yang memakan hasil panen
+Meningkatkan level familiar akan meningkatkan hp dan attack damage/skill dari creature (aktif) 
+Meningkatkan level familiar akan mengingkatkan hp dan sedikit buff skill pasif pada familiar (pasif)
+6. private island system(home)
+Purvate island adalah map/bioma pribadi yang hanya dapat di akses oleh 1 player untuk di custom sekreatif dan sebagus mungkin
+Setiap player memiliki 1 private island(home)
+System private island(home) dibuat mengikuti referensi clash of clan dan game sejenisnya yakni dapat di kunjungi oleh player lain namun player lain tidak dapat akses untuk mengcustom private island(home) milik player lain
+Privat island(home) dapat di expand untuk memperluas area menggunakan robux
+Di awal player spawn private island beberapa petak yang sudah terexpand yang meliputi fitur (bangunan rumah player,lahan perkebunan,dan beberapa lahan kosong sebagai halaman) dan untuk tata letaknya dapat di custom sebebasnya oleh player (pemilik) private island (selama masih dalam batas wilayah yang telah terexpand)
+Familiar hasil timing dapat di lepas liarkan di private island dengan maksimum 5 yang bertujuan untuk memanfaatkan buff pasif dari creature tersebut atau hanya sekedar untuk flexing 
+Item item dekorasi juga dapat di pasang di private island(home) untuk menambah keindahan dan estetika 
+Bangunan rumah,lahan perkebunan,dan petak tanah dapat di expand/diperbesar menggunakan robux
+(Early konsep) Private island(home) memiliki point estetika yang dipengaruhi oleh beberapa faktor:
+Item item dekorasi
+Rarity creature yang di lepas di pirvate island(home
+Rarity tumbuhan yang di tanam di lahan
+Setiap expandsi dan upgrade di private island akan memiliki batas maksimal hal ini dilakukan agar tidak ada player yang over expand terutama pada lahan perkebunan dengan tujuan ingin menanam tumbuhan dalam jumlah yang massive sekaligus yang nanti akan berimbas pada estetika private island(home) itu sendiri,
+(Early konsep) Akan disediakan leaderboard untuk point estetika private island sebagai reward player yang berhasil meraih point tertinggi dan avatarnya akan di tampilkan di papan leaderboard di kota global, yang nanti akan dapat di visit oleh player player lain 
+
+7. trading system antar player
+antar player bisa melakukan trading dengan cara klik player tersebut dan klik button trade, maka akan mengirimkan undangan trading kepada player lain
+player yang dikirimkan undangan trading akan memunculkan layar konfirmasi
+jika di konfirmasi, kedua player yang sedang melakukan trading akan muncul sebuah window
+yang bisa di tradingkan adalah item tradeable dan uang
+item yang dibeli dengan robux tidak bisa di tradekan
+jumlah item dan uang yang bisa di trade terbatas
+setiap player memiliki batasan trade bulanan
+player bisa menambah batasan ini dengan membeli expansion di shop
+konfirmasi lapis dua, di saat awal pengajuan trade dan disaat konfirmasi trade dan mereview barang yang di trade
+8. global trading board system
+akan ada board di dalam kota
+board ini bisa digunakan untuk jual beli
+player bisa menaruh item tradeable dan memasang harga
+player lain akan bisa melihat dan memilih kemudian membelinya
+akan ada fee di setiap transaksi sebanyak 10%
+jangka waktunya 15 hari, jika item yang tidak laku dalam jangka waktu tersebut maka akan di cabut dari board dan player lain tidak bisa melihat atau membeli item tersebut
+jika item yang sudah dicabut karena tidak laku dalam waktu 15 hari, dan tidak diambil dalam jangan waktu 3 hari, maka item tersebut akan menghilang
+setiap player memiliki 3 slot gratis item yang bisa di pasang di board
+dan setiap player juga memiliki batasan jumlah uang yang bisa di tarik dari board
+player bisa menambahkan slot dan batasan uang dengan cara membeli di shop
+ketika player memasang barang maka harga otomatis tertambah 10% dari harga barang
+dan ketika barang tersebut di beli oleh player lain maka uangnya akan masuk ke board player, dan untuk mengambilnya player harus masuk ke menu di board. 
+tentunya uang yang masuk ke board harus sudah di kurangi dengan fee
+saya mengambil reverensi dari board trading system toram online
+9. money system
+uang di dalam game berbeda dengan uang roblox(robux)
+mata uang di dalam game memiliki nama IRIFA, disingkat IRF
+
+
+10. crafting system
+Crafting hanya dapat di lakukan di npc:
+Blacksmith:untuk crafting alat mining dan senjata
+Fisherman:untuk crafting alat fishing
+Farmer:untuk crafting alat berkebun
+Workshop:untuk crafting item dekorasi
+Apapun item yang di craft akan membutuhkan material tertentu yang akan disesuaikan dengan rarity (semakin tinggi rarity material yang digunakan maka akan semakin bagus item yang dapat di craft)
+Semua item yang dapat dicraft memiliki resepnya sendiri untuk material yang dibutuhkan dan player harus mendapatkannya 
+Ada beberapa jenis material:
+Meterial mineral tambang
+Material pecahan tubuh monster
+Material laut (menyusul)
+Hasil crafting memiliki grade/rarity:
+Common: menggunakan material material common
+Rare: menggunakan material material rare
+Epic: menggunakan material material epic
+Legend: menggunakan material material legend
+Mythic: menggunakan material meterial mythic
+Special: menggunakan material material special
+Eksklusif event: menggunakan material material event
+Besi adalah material dengan rarity common namun material material ini adalah material yang bersifat inti/pondasi, material ini akan salalu dibutuhkan untuk melakukan craftting
+Material lain dengan grade/rarity rare keatas bersifat material tambahan
+Material pecahan monster juga bersifat sebagai material tambahan 
+11. weather system
+cuaca bisa berubah ubah sesuai hari
+dan waktu akan mengikuti waktu di reallife
+musim akan mengikuti musim in real life
+musim akan lebih mengarahkan ke event dan season
+akan ada beberapa item, lokasi, alat, monster khusus di season tersebut
+musim hanya bisa di ganti dengan update dari developer, untuk sementara hanya ada satu musim saja
+12. storage system
+Setiap player memiliki private storage
+Storage ada 2 macam
+Main storage: yakni storage yang bisa di akses dimanapun,berbentuk tas,dapat di tambah storagenya namun harus membeli menggunakan robux.
+di dalam tas memiliki kategori; all, alat, consumable, bahan, equipment, dll.
+bahan bisa di stack hingga tertentu untuk bahan tertentu. juga consumable.
+Chest storage: yakni storage yang berbentuk peti,harus di beli di npc workshop menggunakan uang,hanya bisa di akses saat player intract dengan item tersebut,harus diletakkan di private island, 
+Main storage memiliki maksimum upgrade dan hal itu akan menyebabkan masalah pada player saat ingin menyimpan item namun main storage sudah penuh, maka dari itu kami memberikan fitur storage chest agar player dapat menyimpan item lebih banyak
+Upgrade main storage tidak memerlukan material namun memerlukan uang game
+Untuk mendapatkan Storage chest harus dibeli dengan uang game di npc workshop
+Main storage maupun storage chest hanya dapat diakses oleh player pemilik saja
+Storage chest dapat di beri teks sebagai penanda masing masing chest, hal ini untuk mengantisipasi player bingung meletakkan itemnya 
+
+13. Familiar system
+Familiar adalah mahluk yang berhasil di tame(dijinakkan) oleh player dan akan dapat di simpan di storage/di bawa berpetualang/dilepas di private island
+Familiar dibagi menjadi 2 tipe yakni pasif dan aktif:
+Aktif: tipe yang bagus untuk dibawa oleh player ketika ingin pergi ke dungeon dikarenakan skillnya yang cocok untuk kombat
+Pasif: tipe yang lebih ke arah buffer untuk grinding (memancing,menambang,dan berkebun) namun tidak cocok untuk combat
+Player dapat membawa 2 familiar sebagai teman berpetualang
+Familiar memiliki level yang jika ditingkatkan maka akan meningkatkan hp/attack dmg/efek skill, menyesuakan tipe pet tersebut
+Meningkatkan level familiar juga dapat merubah visual pet tersebut mulai dari ukuran lebih besar dan design visual yang lebih bagus
+Familiar dapat di jual di npc
+Familiar dapat di trade antar player
+Familiar dapat di jual di pasar global dengan harga jual yang menyesuaikan pasar 
+Familiar memiliki rarity yang telah di jelaskan di bagian taming system
+
+14. grade/rarity system
+Ada beberapa item yang memiliki rarity/grade:
+Ikan
+Familiar
+Monster
+Seed
+Senjata
+Armor
+Rarity menandakan tingkat kelangkahan/kesusahan untuk mendapatkan suatu item
+Semakin tinggi rarity/grade suatu item maka akan semakin susah didapatkan/spawn
+Presentase rarity dibagi 2:
+Presentase kemunculan yang meliputi: monster,familiar,ikan,
+Presentase gacha yang meliputi: geode,seed yang dijual di npc pedagang keliling,treasure 
+Tingakatan uneversal di game:
+Common
+Rare
+Epic
+Legend
+Mythic
+Special
+Event
+
+15. Luck system
+Luck dapat mempengaruhi semua aspek yang memiliki rarity (material mining,monster,ikan,familiar,kualitas panen)
+Luck dapat meningkatan presentase kemunculan rarity langka
+Luck dapat di boost dari beberapa cara:
+Luck booster server (dapat di beli di game shop) efek boost mencakup 1 server jadi semua player yang berada di server itu akan mendapatkan boost lucknya walaupun yang membeli server boost cuma 1 player dan boost luck dapat di stack maksimal
+Buff dari familiar (efeknya hanya untuk pemilik pet)
+Buff dari alat yang di tempa/enhance (efeknya hanya untuk pemilik alat)
+16. Npc
+Ada beberapa npc dalam game ini: 
+Blacksmith: npc untuk crafting dan upgrade (alat mining,senjata)
+Fisherman: npc tempat membeli perlengkapan memancing
+Workshop: npc tempat crafting dan membeli item dekorasi 
+Farmer: npc untuk membeli peralatan farming dan seed 
+Walikota: npc yang akan memandu dan memberi tutorial early game kepada player baru
+Guild master (early konsep): npc tempat menjual material pecahan monster dan mengambil quest mengalahkan monster 
+Pedagang keliling: npc yang hanya muncul di waktu tertentu dan membawa item item biasa sampai langka seperti seed/dekorasi/material yang dapat dibeli oleh player menggunakan uang game, namun item yang di sediakan memiliki limit pembelian (semakin langka itemnya maka akan semakin sedikit yang dibawa oleh npc ini)
+Setiap npc dapat memberikan quest yang jika quest dapat di selesaikan oleh player maka npc akan memberikan item atau membuka alat baru dengan tingkatan yang lebih tinggi yang berguna untuk player, ini bertujuan untuk membantu progress player 
+Player dapat berinteraksi dengan npc digame ini entah untuk membeli/crafting/upgrade ataupun hanya sekedar mengobrol
+Setiap obrolan dari npc akan menamplikan teks percakapan di atas npc seperti komik
+Untuk npc wali kota tidak hanya berdiam di satu tempat dia memiliki rotasi sendiri untuk berkeliling kota (early konsep)
+17. Main story(early konsep)
+Main story harus di jalankan oleh player
+Main story harus di akan muncul saat player berinteraksi dengan npc yang ditentukan sesuai plot story
+Main story memiliki cut scene (early konsep)
+Progress main story akan selaras dengan progress player
+Blueprint Plot main story:
+Tutorial awal (walikota): berisi tentang pengenalan awal kepada player (reward: uang modal awal)
+(Fisherman)Memancing ikan…..: player akan diberi quest untuk memancing ikan tertentu ketika player selesai berinteraksi dengan npc maka player akan mendapatkan reward alat pancing tingkat rendah yang akan digunakan untuk menyelesaikan quest tersebut (reward: uang)
+(Farmer) Tahun ini aku mendapatkan hasil panen yang melimpah, berkebun sangat menyenangkan dan dapat memberimu penghasilan tambahan, kamu harus mencoba untuk berkebun juga, aku akan memberimu seed ini namun kamu akan membutuhkan alat alat berkebun dan kamu bisa membelinya dariku (farmer): player dapat mulai berkebun dengan membeli alat berkebun di farmer lalu dia akan memberi player seed tingkat rendah untuk progress early game (reward: seed)
+(Guild master) Player hanya dapat mengakses dungeon jika dia sudah terdaftar sebagai petualang, hai kamu baru ya dikota ini, apakah kamu datang untuk mendaftar sebagai petualang? Hati hati ya didalam dungeon kamu bisa bertemu dengan monster monster seram, jadi kamu harus punya persiapan terlebih dahulu, belilah material material ini dan bawalah ke blacksmith minta dia untuk membuatkanmu senjata dan armor (reward: akses ke dungeon)
+(Blacksmith) Hahaha…. Lihat mineral ini begitu indah bukan? (Berlian) lihatlah kilauannya, kamu akan menemukan mineral semacam ini didalam dungeon, wow kamu membawakanku material, ya kamu butuh persiapan untuk menjelajah dingeon nak, jika kamu memberiku uang aku akan membuat sesuatu dengan material ini, okee nak!! Tunggulah aku akan membuatkanmu senjata dan armor, ini nak armor dan senjatamu sudah jadi karena kamu sepertinya baru di kota ini bawalah alat ini, ini akan berguna untukmu nanti (reward: alat mining)
+(Workshop) selamat datang sobat, lihatlah sekelilingmu, barang barang yang bagus bukan?, apakah kamu ingin membawa pulang 1 untuk hiasan dirumahmu?, tunggu sepertinya tasmu itu terlalu kecil, itu tidak akan cukup sobat!, kamu bisa mengupgradenya disini dengan biaya ……. , trimakasih sobat datanglah kesini lain waktu dan bawa pulanglah ini (reward: chest storage)
+18. Combat system
+Player memiliki stats meliputi:
+Health point
+Attack damage
+Base damage
+Armor
+Attack speed
+Critical chance
+Critcal damage
+Luck
+Health point adalah bar darah yang dimiliki oleh player, health point bisa berkurang jika player terkena serangan monster, health point berupa point angka yang dimana akan tertulis 2000/2000 dalam keadaan penuh tanpa tambahan atribut dari item, serangan monster juga memiliki point damage kerusakan tertentu yang scaling dengan tingkat rarity monster, misal: monster A memiliki point damage kerusakan sejumlah 100 point dan jika serangan tersebut mengenai player, maka health point player akan berkurang sejumlah 100 point dari yang awalnya 2000/2000 menjadi 1900/2000 (kerusakan yang diterima oleh player saat terkena serangan monster dapat di reduce oleh jumlah point armor)
+Base damage adalah angka mentah point kerusakan yang dapat di hasilkan tanpa tambahan attribut dari item apapun, base damage berjumlah 20 untuk pondasi dan akan dapat bertembah oleh attribut dari item armor
+Attack damage adalah adalah jumlah final point kerusakan yang dapat dihasilkan oleh player, attack damage merupakan jumlah total dari base damage yang telah ditambah dengan attribut dari item senjata
+Armor adalah stats point pengurangan damage yang diterima oleh player yang akan didapatkan dari attribut dari item armor, jika player memiliki health point sejumlah 2000 lalu dia terkena serangan monster yang memiliki point damage 100 namun player memiliki point armor 50 maka point damage yang diterima player hanya akan 50 karena telah di reduce oleh point armor milik player
+Attack speed adalah point kecepatan serangan yang dapat dikeluarkan oleh player, 
+Critcal chance adalah peluang (%) serangan akan menghasilkan efek critical, misal: critical chance 10% maka per 100 action/serangan maka akan menghasilkan efek critical, critical chance bisa bertambah dan berkurang yang dipengaruhi attribut/special efek dari item armor dan senjata yang dipakai oleh player
+Critcal damage adalah bonus damage/efek saat critical terjadi, misal; damage normal (base damage+attack damage): 100 , ceitical damage: 100%, maka damage saat critical adalah attack damage + 100% dari damage normal (100+100=200) maka damage yang dihasilkan saat critical adalah 200 point damage
+Stats player dapat dipengaruhi oleh perlengkapan yang dikenakan 
+Senjata memiliki atribut dan efek unik (senjata dengan grade epic ke atas)
+Efek unik meliputi penambahan (%) dari semua stats yang ada dengan jumlah penambahan yang semakin banyak scaling dengan rarity itemnya
+Untuk item senjata/armor dengan rarity special memiliki 2-3 efek unik
+Untuk item senjata/armor dengan rarity eksklusif item memiliki attribut yang paling tinggi dan juga efek special namun bukan penambahan stats melainkan efek unik yang nanti akan di sesuaikan dengan tema event
+Armor memiliki atribut dan efek unik (armor dengan grade epic ke atas)
+(Early konsep) Akan ada senjata dan armor terkutuk yang memiliki efek kutukan namun memiliki buff pada atribut tertentu misal: senjata A adalah senjata peninggalan samurai terkuat pada zaman edo senjata ini akan memberi kekuatan dahsyat untuk penggunanya (memberi attack damage tinggi) namun akan meningkatkan damage kerusakan yang diterima oleh penggunanya
+Monster juga memiliki stats yang scaling dengan tingkatan raritynya semakin tinggi rarity maka akan semakin tinggi stats yang dimiliki monster tersebut
+19. Treasure system
+Treasure merupakan item chest
+Treasure chest dapat di buka oleh player dan akan gacha untuk item yang didapatkan 
+Item yang bisa di dapatkan dari membuka treasure chest meliputi:
+Material mineral
+Material pecahan tubuh monster
+Seed
+Dekorasi item
+Treasure chest bisa didapatkan dari:
+Memancing
+Mengalahkan monster
+Presentase treassure chest sangat kecil untuk didapatkan
+Treassure chest bisa di trade antar player
+Tressure chest juga memiliki grade:
+Mythic: item yang bisa di dapat dari grade legend-mythic
+Special: item yang bisa di dapat dari grade mythic-special
+
+20. Event system
+Developer akan selalu memberikan update event berdasarkan event event real misal:winter,hallowen,summer
+Setiap diadakan event maka akan ada item item event eksklusif yang hanya bisa didapatkan saat event itu berlangsung
+Item item eksklusif meliputi:
+Ikan
+Familiar
+Boss dungeon event
+Skin tools item
+Skin senjata
+Skin armor
+21.Index system
+Item yang memiliki index yakni:
+Pet creature
+Fish
+Tanaman
+Senjata
+Armor
+Index akan di urutkan sesuai dengan tingkatan rarity/grade
+22. Geode system
+Geode adalah item berupa sedimen batu yang berbentuk bulat yang dapat ditemukan saat menambang menambang mineral didalam dungeon 
+Geode dapat dipecah di npc blacksmith
+Geode berisi mineral mineral random dari grade common-special
+Geode memiliki 4 jenis
+Geode biasa: berisi mineral common-epic
+Geode biasa besar: berisi mineral common-epic namun dengan jumlah mineral 3-10
+Geode berkilau: berisi mineral legend-special
+Geode berkilau besar: berisi mineral legend-special namun dengan jumlah 2-5
+23. RNG system
+bisa di kembangkan lebih jauh oleh ai, untuk menunjang kebutuhan sesuai spesifikasi yang ada
+
+ 
+
