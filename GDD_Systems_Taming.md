@@ -235,11 +235,11 @@ Require specific conditions beyond HP:
 - **Taming Location:** Volcanic Zone
 - **Preferred Food:** Flame Sword (crafted meat dish)
 - **Base Stats:** HP 2,000, Attack 120, Defense 60
-- **Combat Ability:** **Flame Bite** - Deals fire damage + burn (50 DPS for 5 sec)
-- **Passive Bonus:** +15% Fire Damage, +50 Fire Resistance
+- **Combat Ability:** **Flame Bite** - Deals bonus damage + burn DoT (50 DPS for 5 sec)
+- **Passive Bonus:** +15% Attack Damage, +10% Attack Speed
 - **Appearance:** Red-orange fur with flame particles
 - **Personality:** Fierce, loyal
-- **Special:** Immune to lava damage
+- **Special:** Immune to lava damage (environmental hazard)
 
 #### Crystal Golem
 - **Rarity:** Epic
@@ -275,8 +275,8 @@ Require specific conditions beyond HP:
 - **Taming Location:** Volcanic Core peak
 - **Preferred Food:** Phoenix Pepper
 - **Base Stats:** HP 2,500, Attack 250, Magic 200
-- **Combat Ability:** **Inferno Blast** - AoE fire explosion (500 damage, 8m radius, 60 sec cooldown)
-- **Passive Bonus:** +50% Fire Damage, +100% Fire Resistance, Immunity to burn
+- **Combat Ability:** **Inferno Blast** - AoE explosion (500 damage, 8m radius, 60 sec cooldown)
+- **Passive Bonus:** +25% Critical Damage, +15% Attack Damage, +100% Heat Resistance (environmental), Immunity to burn
 - **Special Ability:** **Rebirth** - If player dies, Phoenix sacrifices itself to revive player at 50% HP (once per day)
 - **Appearance:** Flaming bird with red-gold feathers, fire particle trail
 - **Personality:** Noble, protective
@@ -301,8 +301,8 @@ Require specific conditions beyond HP:
   3. **Adult (Levels 41-60):** Large, flying mount
      - HP 15,000, Attack 800
      - Ability: Dragon Roar (AoE stun), Fire Breath, Flight
-- **Ultimate Ability (Adult):** **Dragonfire Barrage** - Aerial bombardment (1,000 damage per fireball, 10 fireballs, 5 min cooldown)
-- **Passive Bonus:** +100% Fire Damage, +50% All Stats, Dragon Slayer weapons deal -50% damage to you
+- **Ultimate Ability (Adult):** **Dragon Barrage** - Aerial bombardment (1,000 damage per attack, 10 attacks, 5 min cooldown)
+- **Passive Bonus:** +30% Attack Damage, +20% Critical Chance, +50% All Stats, Dragon-type enemies deal -30% damage to you
 - **Appearance:** Scales match element (Red fire, Blue ice, Green nature)
 - **Personality:** Starts playful, becomes majestic
 - **Special:** Only 1 per account, tradeable as egg only

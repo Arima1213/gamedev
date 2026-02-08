@@ -98,11 +98,11 @@ The Combat System provides engaging dungeon exploration with risk-reward dynamic
 **Level Progression:**
 ```
 Level 1: Base stats
-Level 10: +900 HP, equipment slots unlocked
-Level 20: +1,900 HP, rare equipment accessible
-Level 30: +2,900 HP, epic equipment unlocked
-Level 40: +3,900 HP, legendary equipment unlocked
-Level 50: +4,900 HP, mythic equipment unlocked
+Level 10: equipment slots unlocked
+Level 20: rare equipment accessible
+Level 35: epic equipment unlocked
+Level 50: legendary equipment unlocked
+Level 80: mythic equipment unlocked
 ```
 
 **Equipment Contribution:**
