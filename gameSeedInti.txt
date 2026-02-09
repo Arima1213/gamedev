@@ -21,6 +21,7 @@ core content :
 ·         mineral memiliki tingkatan
  
 2. fishing system
+
 ·         memancing hanya dapat dilakukan di laut atau sungai
 ·         ikan yang ada di laut dan sungai akan berbeda tergantung lokasi dan cuaca
 ·         memancing membutuhkan alat pancing
